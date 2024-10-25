@@ -1,7 +1,7 @@
 <h1 align="center">🧠 Minds SDK for C# 🧠</h1>
 <br />
 <p align="center">
-    <img alt="hero" width="450" src="https://raw.githubusercontent.com/priyanshuverma-dev/Minds.SDK/main/.github/hero.png" style="max-width: 100%;"/>
+    <img alt="hero" width="450" src="https://raw.githubusercontent.com/priyanshuverma-dev/Minds.SDK/master/.github/hero.png" style="max-width: 100%;"/>
 </p>
 <br /><br />
 <p align="center">
@@ -14,7 +14,7 @@
     <a href="https://github.com/priyanshuverma-dev/Minds.SDK/releases">
 <img alt="repo release" src="https://img.shields.io/github/v/release/priyanshuverma-dev/Minds.SDK">   
     </a> 
-    <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/main/LICENSE">
+    <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/LICENSE">
 <img alt="license" src="https://img.shields.io/badge/License-MIT-blue.svg"> 
     </a> 
 </p>
@@ -43,7 +43,7 @@
 ## 🚀 Features
 
 - **🔐 Secure API Authentication**  
-  Ensure safe and encrypted connections with the Minds API, maintaining data security and privacy.
+  Ensure safe and encrypted connections with the Minds API, mastertaining data security and privacy.
   
 - **📊 Easy Data Source Management**  
   Simplified management of your data sources. Easily configure and manage data connections.
@@ -78,13 +78,13 @@ var client = new MindsClient("YOUR_API_KEY");
 // Now you're ready to use the SDK!
 ```
 
-> Check out the [`example`](https://github.com/priyanshuverma-dev/Minds.SDK/blob/main/example/Main.cs) for a demo!
+> Check out the [`example`](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/example/master.cs) for a demo!
 
 ---
 
 ## 📘 API Reference
 
-### [Client](https://github.com/priyanshuverma-dev/Minds.SDK/blob/main/src/Client.cs)
+### [Client](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Client.cs)
 
 | Property                     | Description                   |
 | ---------------------------- | ----------------------------- |
@@ -92,7 +92,7 @@ var client = new MindsClient("YOUR_API_KEY");
 | `Datasources Datasources`     | Manages data sources          |
 | `Minds Minds`                 | Manages Minds (AI models)     |
 
-### [Datasources](https://github.com/priyanshuverma-dev/Minds.SDK/blob/main/src/Datasources.cs)
+### [Datasources](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Datasources.cs)
 
 | Method                        | Description                   |
 | ----------------------------- | ----------------------------- |
@@ -101,7 +101,7 @@ var client = new MindsClient("YOUR_API_KEY");
 | `Create(DatabaseConfig config)`| Create a new datasource       |
 | `Drop(string name)`           | Delete a datasource           |
 
-### [Minds](https://github.com/priyanshuverma-dev/Minds.SDK/blob/main/src/Minds.cs)
+### [Minds](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Minds.cs)
 
 | Method                        | Description                   |
 | ----------------------------- | ----------------------------- |
@@ -110,12 +110,6 @@ var client = new MindsClient("YOUR_API_KEY");
 | `Create(MindConfig config)`   | Create a new Mind             |
 | `Drop(string name)`           | Delete a Mind                 |
 
-### [Mind](https://github.com/priyanshuverma-dev/Minds.SDK/blob/main/src/Mind.cs)
-
-| Method                        | Description                   |
-| ----------------------------- | ----------------------------- |
-| `Completion(string message)`  | Get completion response       |
-| `StreamCompletion(string message)` | Stream completions        |
 
 ### Exceptions
 
@@ -189,11 +183,11 @@ Console.WriteLine($"Created Mind: {newMind.Name}");
 
 <p align="center">
 We welcome contributions to enhance the Minds SDK for C#!
-Please refer to our <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/main/CONTRIBUTING.md"><strong>CONTRIBUTING</strong></a> guide to get started.
+Please refer to our <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/CONTRIBUTING.md"><strong>CONTRIBUTING</strong></a> guide to get started.
 </p>
 
 <h2 align="center">📄 License</h2>
 
 <p align="center">
-This project is licensed under the <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/main/LICENSE"><strong>MIT License</strong></a>.
+This project is licensed under the <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/LICENSE"><strong>MIT License</strong></a>.
 </p>
