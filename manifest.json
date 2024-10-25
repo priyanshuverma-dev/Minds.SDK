@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/home/runner/work/Minds.SDK/Minds.SDK/Minds.SDK",
+  "source_base_path": "/home/runner/work/Minds.SDK/Minds.SDK",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,6 +9,29 @@
           "relative_path": "index.json"
         }
       }
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Minds.SDK/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "Minds.SDK/toc.json"
+        },
+        ".html": {
+          "relative_path": "Minds.SDK/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -182,19 +205,6 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
-        ".html": {
-          "relative_path": "toc.html"
         }
       },
       "version": ""
