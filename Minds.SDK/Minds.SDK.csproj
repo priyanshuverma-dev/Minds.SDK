@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C6A357EC-6E0E-487C-8399-95F243D98A55}</ProjectGuid>
     <OutputType>Library</OutputType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Minds.SDK</RootNamespace>
     <AssemblyName>Minds.SDK</AssemblyName>

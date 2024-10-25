@@ -1,0 +1,39 @@
+name: Generate Documentation and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  generate_docs:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Install dependencies (optional, depending on your project)
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.x'  # Specify your .NET version here
+
+      # Install DocFX
+      - name: Install DocFX
+        run: sudo apt-get install -y docfx
+
+      # Build the documentation using DocFX
+      - name: Generate Documentation
+        run: docfx docfx.json  # Adjust this command based on your docfx.json location
+
+      # Deploy the documentation to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site  # Specify the directory where DocFX outputs the static site
