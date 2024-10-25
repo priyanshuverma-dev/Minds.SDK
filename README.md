@@ -72,11 +72,11 @@ Import the SDK and initialize a client:
 ```csharp
 using Minds.SDK;
 
-var client = new MindsClient("YOUR_API_KEY");
+var client = new("YOUR_API_KEY");
 // Now you're ready to use the SDK!
 ```
 
-> Check out the [`example`](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/example/master.cs) for a demo!
+> Check out the [`example`](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Sample/Program.cs) for a demo!
 
 ---
 
@@ -180,3 +180,6 @@ Console.WriteLine($"Created Mind: {newMind.Name}");
 ## 📄 License
 
 This project is licensed under the <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/LICENSE"><strong>License</strong></a>.
+
+This project is heavily influenced by *Minds Python SDK*
+You can find it [here](https://github.com/mindsdb/minds_python_sdk)

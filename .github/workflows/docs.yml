@@ -23,6 +23,13 @@ jobs:
         with:
           dotnet-version: '7.x'  # Specify your .NET version here
 
+      - name: Clear NuGet Cache
+        run: dotnet nuget locals all --clear
+
+      - name: Restore Dependencies
+        run: dotnet restore --verbosity detailed
+        timeout-minutes: 10
+
       # Install DocFX using dotnet tool
       - name: Install DocFX
         run: dotnet tool install -g docfx
