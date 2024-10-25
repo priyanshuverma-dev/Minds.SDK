@@ -1,0 +1,740 @@
+### YamlMime:ManagedReference
+items:
+- uid: Minds.SDK.Datasources
+  commentId: T:Minds.SDK.Datasources
+  id: Datasources
+  parent: Minds.SDK
+  children:
+  - Minds.SDK.Datasources.#ctor(Minds.SDK.Client)
+  - Minds.SDK.Datasources.Create(DatabaseConfig,System.Boolean)
+  - Minds.SDK.Datasources.Drop(System.String)
+  - Minds.SDK.Datasources.Get(System.String)
+  - Minds.SDK.Datasources.List
+  langs:
+  - csharp
+  - vb
+  name: Datasources
+  nameWithType: Datasources
+  fullName: Minds.SDK.Datasources
+  type: Class
+  source:
+    remote:
+      path: Minds.SDK/Datasources/Datasources.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Datasources
+    path: Datasources/Datasources.cs
+    startLine: 8
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Provides methods to interact with datasources, including creation, listing, retrieval, and deletion.
+  example: []
+  syntax:
+    content: public class Datasources
+    content.vb: Public Class Datasources
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Minds.SDK.Datasources.#ctor(Minds.SDK.Client)
+  commentId: M:Minds.SDK.Datasources.#ctor(Minds.SDK.Client)
+  id: '#ctor(Minds.SDK.Client)'
+  parent: Minds.SDK.Datasources
+  langs:
+  - csharp
+  - vb
+  name: Datasources(Client)
+  nameWithType: Datasources.Datasources(Client)
+  fullName: Minds.SDK.Datasources.Datasources(Minds.SDK.Client)
+  type: Constructor
+  source:
+    remote:
+      path: Minds.SDK/Datasources/Datasources.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: .ctor
+    path: Datasources/Datasources.cs
+    startLine: 16
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Initializes a new instance of the <xref href="Minds.SDK.Datasources" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public Datasources(Client client)
+    parameters:
+    - id: client
+      type: Minds.SDK.Client
+      description: The client instance for making API requests.
+    content.vb: Public Sub New(client As Client)
+  overload: Minds.SDK.Datasources.#ctor*
+  nameWithType.vb: Datasources.New(Client)
+  fullName.vb: Minds.SDK.Datasources.New(Minds.SDK.Client)
+  name.vb: New(Client)
+- uid: Minds.SDK.Datasources.Create(DatabaseConfig,System.Boolean)
+  commentId: M:Minds.SDK.Datasources.Create(DatabaseConfig,System.Boolean)
+  id: Create(DatabaseConfig,System.Boolean)
+  parent: Minds.SDK.Datasources
+  langs:
+  - csharp
+  - vb
+  name: Create(DatabaseConfig, bool)
+  nameWithType: Datasources.Create(DatabaseConfig, bool)
+  fullName: Minds.SDK.Datasources.Create(DatabaseConfig, bool)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/Datasources/Datasources.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Create
+    path: Datasources/Datasources.cs
+    startLine: 28
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: >-
+    Creates a new datasource based on the provided <xref href="DatabaseConfig" data-throw-if-not-resolved="false"></xref>.
+
+    If the datasource already exists and <code class="paramref">replace</code> is true, it will be deleted and replaced.
+  example: []
+  syntax:
+    content: public Task<Datasource> Create(DatabaseConfig dsConfig, bool replace = false)
+    parameters:
+    - id: dsConfig
+      type: DatabaseConfig
+      description: The database configuration for the datasource to be created.
+    - id: replace
+      type: System.Boolean
+      description: If true, replaces the existing datasource with the same name, if it exists.
+    return:
+      type: System.Threading.Tasks.Task{Minds.SDK.Datasource}
+      description: A <xref href="Minds.SDK.Datasource" data-throw-if-not-resolved="false"></xref> object representing the created datasource.
+    content.vb: Public Function Create(dsConfig As DatabaseConfig, replace As Boolean = False) As Task(Of Datasource)
+  overload: Minds.SDK.Datasources.Create*
+  nameWithType.vb: Datasources.Create(DatabaseConfig, Boolean)
+  fullName.vb: Minds.SDK.Datasources.Create(DatabaseConfig, Boolean)
+  name.vb: Create(DatabaseConfig, Boolean)
+- uid: Minds.SDK.Datasources.List
+  commentId: M:Minds.SDK.Datasources.List
+  id: List
+  parent: Minds.SDK.Datasources
+  langs:
+  - csharp
+  - vb
+  name: List()
+  nameWithType: Datasources.List()
+  fullName: Minds.SDK.Datasources.List()
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/Datasources/Datasources.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: List
+    path: Datasources/Datasources.cs
+    startLine: 54
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: >-
+    Retrieves a list of all available datasources.
+
+    Filters out datasources that do not support SQL.
+  example: []
+  syntax:
+    content: public Task<List<Datasource>> List()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{Minds.SDK.Datasource}}
+      description: A list of <xref href="Minds.SDK.Datasource" data-throw-if-not-resolved="false"></xref> objects.
+    content.vb: Public Function List() As Task(Of List(Of Datasource))
+  overload: Minds.SDK.Datasources.List*
+- uid: Minds.SDK.Datasources.Get(System.String)
+  commentId: M:Minds.SDK.Datasources.Get(System.String)
+  id: Get(System.String)
+  parent: Minds.SDK.Datasources
+  langs:
+  - csharp
+  - vb
+  name: Get(string)
+  nameWithType: Datasources.Get(string)
+  fullName: Minds.SDK.Datasources.Get(string)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/Datasources/Datasources.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Get
+    path: Datasources/Datasources.cs
+    startLine: 79
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: >-
+    Retrieves a datasource by name.
+
+    Throws an exception if the datasource does not support SQL.
+  example: []
+  syntax:
+    content: public Task<Datasource> Get(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the datasource to retrieve.
+    return:
+      type: System.Threading.Tasks.Task{Minds.SDK.Datasource}
+      description: A <xref href="Minds.SDK.Datasource" data-throw-if-not-resolved="false"></xref> object representing the retrieved datasource.
+    content.vb: Public Function [Get](name As String) As Task(Of Datasource)
+  overload: Minds.SDK.Datasources.Get*
+  exceptions:
+  - type: Minds.SDK.ObjectNotSupportedException
+    commentId: T:Minds.SDK.ObjectNotSupportedException
+    description: Thrown if the datasource does not support SQL.
+  nameWithType.vb: Datasources.Get(String)
+  fullName.vb: Minds.SDK.Datasources.Get(String)
+  name.vb: Get(String)
+- uid: Minds.SDK.Datasources.Drop(System.String)
+  commentId: M:Minds.SDK.Datasources.Drop(System.String)
+  id: Drop(System.String)
+  parent: Minds.SDK.Datasources
+  langs:
+  - csharp
+  - vb
+  name: Drop(string)
+  nameWithType: Datasources.Drop(string)
+  fullName: Minds.SDK.Datasources.Drop(string)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/Datasources/Datasources.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Drop
+    path: Datasources/Datasources.cs
+    startLine: 96
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Deletes a datasource by name.
+  example: []
+  syntax:
+    content: public Task Drop(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the datasource to delete.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Drop(name As String) As Task
+  overload: Minds.SDK.Datasources.Drop*
+  nameWithType.vb: Datasources.Drop(String)
+  fullName.vb: Minds.SDK.Datasources.Drop(String)
+  name.vb: Drop(String)
+references:
+- uid: Minds.SDK
+  commentId: N:Minds.SDK
+  href: Minds.html
+  name: Minds.SDK
+  nameWithType: Minds.SDK
+  fullName: Minds.SDK
+  spec.csharp:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+  spec.vb:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Minds.SDK.Datasources
+  commentId: T:Minds.SDK.Datasources
+  parent: Minds.SDK
+  href: Minds.SDK.Datasources.html
+  name: Datasources
+  nameWithType: Datasources
+  fullName: Minds.SDK.Datasources
+- uid: Minds.SDK.Datasources.#ctor*
+  commentId: Overload:Minds.SDK.Datasources.#ctor
+  href: Minds.SDK.Datasources.html#Minds_SDK_Datasources__ctor_Minds_SDK_Client_
+  name: Datasources
+  nameWithType: Datasources.Datasources
+  fullName: Minds.SDK.Datasources.Datasources
+  nameWithType.vb: Datasources.New
+  fullName.vb: Minds.SDK.Datasources.New
+  name.vb: New
+- uid: Minds.SDK.Client
+  commentId: T:Minds.SDK.Client
+  parent: Minds.SDK
+  href: Minds.SDK.Client.html
+  name: Client
+  nameWithType: Client
+  fullName: Minds.SDK.Client
+- uid: DatabaseConfig
+  commentId: T:DatabaseConfig
+  href: DatabaseConfig.html
+  name: DatabaseConfig
+  nameWithType: DatabaseConfig
+  fullName: DatabaseConfig
+- uid: Minds.SDK.Datasource
+  commentId: T:Minds.SDK.Datasource
+  href: Minds.SDK.Datasource.html
+  name: Datasource
+  nameWithType: Datasource
+  fullName: Minds.SDK.Datasource
+- uid: Minds.SDK.Datasources.Create*
+  commentId: Overload:Minds.SDK.Datasources.Create
+  href: Minds.SDK.Datasources.html#Minds_SDK_Datasources_Create_DatabaseConfig_System_Boolean_
+  name: Create
+  nameWithType: Datasources.Create
+  fullName: Minds.SDK.Datasources.Create
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{Minds.SDK.Datasource}
+  commentId: T:System.Threading.Tasks.Task{Minds.SDK.Datasource}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Datasource>
+  nameWithType: Task<Datasource>
+  fullName: System.Threading.Tasks.Task<Minds.SDK.Datasource>
+  nameWithType.vb: Task(Of Datasource)
+  fullName.vb: System.Threading.Tasks.Task(Of Minds.SDK.Datasource)
+  name.vb: Task(Of Datasource)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Minds.SDK.Datasource
+    name: Datasource
+    href: Minds.SDK.Datasource.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Minds.SDK.Datasource
+    name: Datasource
+    href: Minds.SDK.Datasource.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Minds.SDK.Datasources.List*
+  commentId: Overload:Minds.SDK.Datasources.List
+  href: Minds.SDK.Datasources.html#Minds_SDK_Datasources_List
+  name: List
+  nameWithType: Datasources.List
+  fullName: Minds.SDK.Datasources.List
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{Minds.SDK.Datasource}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{Minds.SDK.Datasource}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<Datasource>>
+  nameWithType: Task<List<Datasource>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<Minds.SDK.Datasource>>
+  nameWithType.vb: Task(Of List(Of Datasource))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of Minds.SDK.Datasource))
+  name.vb: Task(Of List(Of Datasource))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Minds.SDK.Datasource
+    name: Datasource
+    href: Minds.SDK.Datasource.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Minds.SDK.Datasource
+    name: Datasource
+    href: Minds.SDK.Datasource.html
+  - name: )
+  - name: )
+- uid: Minds.SDK.ObjectNotSupportedException
+  commentId: T:Minds.SDK.ObjectNotSupportedException
+  href: Minds.SDK.ObjectNotSupportedException.html
+  name: ObjectNotSupportedException
+  nameWithType: ObjectNotSupportedException
+  fullName: Minds.SDK.ObjectNotSupportedException
+- uid: Minds.SDK.Datasources.Get*
+  commentId: Overload:Minds.SDK.Datasources.Get
+  href: Minds.SDK.Datasources.html#Minds_SDK_Datasources_Get_System_String_
+  name: Get
+  nameWithType: Datasources.Get
+  fullName: Minds.SDK.Datasources.Get
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Minds.SDK.Datasources.Drop*
+  commentId: Overload:Minds.SDK.Datasources.Drop
+  href: Minds.SDK.Datasources.html#Minds_SDK_Datasources_Drop_System_String_
+  name: Drop
+  nameWithType: Datasources.Drop
+  fullName: Minds.SDK.Datasources.Drop
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

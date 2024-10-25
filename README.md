@@ -32,10 +32,8 @@
   - [Client](#client)
   - [Datasources](#datasources)
   - [Minds](#minds)
-  - [Mind](#mind)
   - [Exceptions](#exceptions)
 - [🌟 Usage Examples](#-usage-examples)
-- [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
 ---
@@ -179,15 +177,6 @@ Console.WriteLine($"Created Mind: {newMind.Name}");
 
 ---
 
-<h2 align="center">🤝 Contributing</h2>
+## 📄 License
 
-<p align="center">
-We welcome contributions to enhance the Minds SDK for C#!
-Please refer to our <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/CONTRIBUTING.md"><strong>CONTRIBUTING</strong></a> guide to get started.
-</p>
-
-<h2 align="center">📄 License</h2>
-
-<p align="center">
-This project is licensed under the <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/LICENSE"><strong>MIT License</strong></a>.
-</p>
+This project is licensed under the <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/LICENSE"><strong>License</strong></a>.

@@ -1,0 +1,28 @@
+### YamlMime:TableOfContent
+items:
+- uid: Minds.SDK
+  name: Minds.SDK
+  items:
+  - uid: Minds.SDK.Client
+    name: Client
+  - uid: Minds.SDK.Datasource
+    name: Datasource
+  - uid: Minds.SDK.Datasources
+    name: Datasources
+  - uid: Minds.SDK.ForbiddenException
+    name: ForbiddenException
+  - uid: Minds.SDK.Mind
+    name: Mind
+  - uid: Minds.SDK.Minds
+    name: Minds
+  - uid: Minds.SDK.ObjectNotFoundException
+    name: ObjectNotFoundException
+  - uid: Minds.SDK.ObjectNotSupportedException
+    name: ObjectNotSupportedException
+  - uid: Minds.SDK.RestAPI
+    name: RestAPI
+  - uid: Minds.SDK.UnauthorizedException
+    name: UnauthorizedException
+  - uid: Minds.SDK.UnknownErrorException
+    name: UnknownErrorException
+memberLayout: SamePage

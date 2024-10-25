@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Minds.SDK
+  commentId: N:Minds.SDK
+  id: Minds.SDK
+  children:
+  - Minds.SDK.Client
+  - Minds.SDK.Datasource
+  - Minds.SDK.Datasources
+  - Minds.SDK.ForbiddenException
+  - Minds.SDK.Mind
+  - Minds.SDK.Minds
+  - Minds.SDK.ObjectNotFoundException
+  - Minds.SDK.ObjectNotSupportedException
+  - Minds.SDK.RestAPI
+  - Minds.SDK.UnauthorizedException
+  - Minds.SDK.UnknownErrorException
+  langs:
+  - csharp
+  - vb
+  name: Minds.SDK
+  nameWithType: Minds.SDK
+  fullName: Minds.SDK
+  type: Namespace
+  assemblies:
+  - Minds.SDK
+references:
+- uid: Minds.SDK.Client
+  commentId: T:Minds.SDK.Client
+  parent: Minds.SDK
+  href: Minds.SDK.Client.html
+  name: Client
+  nameWithType: Client
+  fullName: Minds.SDK.Client
+- uid: Minds.SDK.Datasource
+  commentId: T:Minds.SDK.Datasource
+  href: Minds.SDK.Datasource.html
+  name: Datasource
+  nameWithType: Datasource
+  fullName: Minds.SDK.Datasource
+- uid: Minds.SDK.Datasources
+  commentId: T:Minds.SDK.Datasources
+  parent: Minds.SDK
+  href: Minds.SDK.Datasources.html
+  name: Datasources
+  nameWithType: Datasources
+  fullName: Minds.SDK.Datasources
+- uid: Minds.SDK.ObjectNotFoundException
+  commentId: T:Minds.SDK.ObjectNotFoundException
+  href: Minds.SDK.ObjectNotFoundException.html
+  name: ObjectNotFoundException
+  nameWithType: ObjectNotFoundException
+  fullName: Minds.SDK.ObjectNotFoundException
+- uid: Minds.SDK.ObjectNotSupportedException
+  commentId: T:Minds.SDK.ObjectNotSupportedException
+  href: Minds.SDK.ObjectNotSupportedException.html
+  name: ObjectNotSupportedException
+  nameWithType: ObjectNotSupportedException
+  fullName: Minds.SDK.ObjectNotSupportedException
+- uid: Minds.SDK.ForbiddenException
+  commentId: T:Minds.SDK.ForbiddenException
+  href: Minds.SDK.ForbiddenException.html
+  name: ForbiddenException
+  nameWithType: ForbiddenException
+  fullName: Minds.SDK.ForbiddenException
+- uid: Minds.SDK.UnauthorizedException
+  commentId: T:Minds.SDK.UnauthorizedException
+  href: Minds.SDK.UnauthorizedException.html
+  name: UnauthorizedException
+  nameWithType: UnauthorizedException
+  fullName: Minds.SDK.UnauthorizedException
+- uid: Minds.SDK.UnknownErrorException
+  commentId: T:Minds.SDK.UnknownErrorException
+  href: Minds.SDK.UnknownErrorException.html
+  name: UnknownErrorException
+  nameWithType: UnknownErrorException
+  fullName: Minds.SDK.UnknownErrorException
+- uid: Minds.SDK.Mind
+  commentId: T:Minds.SDK.Mind
+  href: Minds.SDK.Mind.html
+  name: Mind
+  nameWithType: Mind
+  fullName: Minds.SDK.Mind
+- uid: Minds.SDK.Minds
+  commentId: T:Minds.SDK.Minds
+  parent: Minds.SDK
+  href: Minds.SDK.Minds.html
+  name: Minds
+  nameWithType: Minds
+  fullName: Minds.SDK.Minds
+- uid: Minds.SDK.RestAPI
+  commentId: T:Minds.SDK.RestAPI
+  parent: Minds.SDK
+  href: Minds.SDK.RestAPI.html
+  name: RestAPI
+  nameWithType: RestAPI
+  fullName: Minds.SDK.RestAPI
+- uid: Minds.SDK
+  commentId: N:Minds.SDK
+  href: Minds.html
+  name: Minds.SDK
+  nameWithType: Minds.SDK
+  fullName: Minds.SDK
+  spec.csharp:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+  spec.vb:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html

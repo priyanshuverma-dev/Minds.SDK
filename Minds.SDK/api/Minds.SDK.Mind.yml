@@ -1,0 +1,1138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Minds.SDK.Mind
+  commentId: T:Minds.SDK.Mind
+  id: Mind
+  parent: Minds.SDK
+  children:
+  - Minds.SDK.Mind.#ctor(Minds.SDK.Client,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.List{System.String},System.Nullable{System.DateTime},System.Nullable{System.DateTime})
+  - Minds.SDK.Mind.AddDatasource(System.String)
+  - Minds.SDK.Mind.CreatedAt
+  - Minds.SDK.Mind.Datasources
+  - Minds.SDK.Mind.DelDatasource(System.Object)
+  - Minds.SDK.Mind.ModelName
+  - Minds.SDK.Mind.Name
+  - Minds.SDK.Mind.Parameters
+  - Minds.SDK.Mind.Provider
+  - Minds.SDK.Mind.ToString
+  - Minds.SDK.Mind.Update(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object})
+  - Minds.SDK.Mind.UpdatedAt
+  langs:
+  - csharp
+  - vb
+  name: Mind
+  nameWithType: Mind
+  fullName: Minds.SDK.Mind
+  type: Class
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Mind
+    path: Mind.cs
+    startLine: 11
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: >-
+    Represents a mind entity in the Minds SDK.
+
+    Provides methods to update, add, or delete datasources linked to the mind, and manages mind configuration settings.
+  example: []
+  syntax:
+    content: public class Mind
+    content.vb: Public Class Mind
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Minds.SDK.Mind.Name
+  commentId: P:Minds.SDK.Mind.Name
+  id: Name
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Mind.Name
+  fullName: Minds.SDK.Mind.Name
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Name
+    path: Mind.cs
+    startLine: 19
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the name of the mind.
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Minds.SDK.Mind.Name*
+- uid: Minds.SDK.Mind.ModelName
+  commentId: P:Minds.SDK.Mind.ModelName
+  id: ModelName
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: ModelName
+  nameWithType: Mind.ModelName
+  fullName: Minds.SDK.Mind.ModelName
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: ModelName
+    path: Mind.cs
+    startLine: 24
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the model name associated with the mind.
+  example: []
+  syntax:
+    content: public string ModelName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ModelName As String
+  overload: Minds.SDK.Mind.ModelName*
+- uid: Minds.SDK.Mind.Provider
+  commentId: P:Minds.SDK.Mind.Provider
+  id: Provider
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: Mind.Provider
+  fullName: Minds.SDK.Mind.Provider
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Provider
+    path: Mind.cs
+    startLine: 29
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the provider associated with the mind.
+  example: []
+  syntax:
+    content: public string Provider { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Provider As String
+  overload: Minds.SDK.Mind.Provider*
+- uid: Minds.SDK.Mind.Parameters
+  commentId: P:Minds.SDK.Mind.Parameters
+  id: Parameters
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: Mind.Parameters
+  fullName: Minds.SDK.Mind.Parameters
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Parameters
+    path: Mind.cs
+    startLine: 34
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the parameters of the mind as a dictionary.
+  example: []
+  syntax:
+    content: public Dictionary<string, object> Parameters { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Property Parameters As Dictionary(Of String, Object)
+  overload: Minds.SDK.Mind.Parameters*
+- uid: Minds.SDK.Mind.Datasources
+  commentId: P:Minds.SDK.Mind.Datasources
+  id: Datasources
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: Datasources
+  nameWithType: Mind.Datasources
+  fullName: Minds.SDK.Mind.Datasources
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Datasources
+    path: Mind.cs
+    startLine: 39
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the list of datasources linked to the mind.
+  example: []
+  syntax:
+    content: public List<string> Datasources { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property Datasources As List(Of String)
+  overload: Minds.SDK.Mind.Datasources*
+- uid: Minds.SDK.Mind.CreatedAt
+  commentId: P:Minds.SDK.Mind.CreatedAt
+  id: CreatedAt
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: Mind.CreatedAt
+  fullName: Minds.SDK.Mind.CreatedAt
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: CreatedAt
+    path: Mind.cs
+    startLine: 44
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the date and time when the mind was created.
+  example: []
+  syntax:
+    content: public DateTime? CreatedAt { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property CreatedAt As Date?
+  overload: Minds.SDK.Mind.CreatedAt*
+- uid: Minds.SDK.Mind.UpdatedAt
+  commentId: P:Minds.SDK.Mind.UpdatedAt
+  id: UpdatedAt
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAt
+  nameWithType: Mind.UpdatedAt
+  fullName: Minds.SDK.Mind.UpdatedAt
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: UpdatedAt
+    path: Mind.cs
+    startLine: 49
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the date and time when the mind was last updated.
+  example: []
+  syntax:
+    content: public DateTime? UpdatedAt { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property UpdatedAt As Date?
+  overload: Minds.SDK.Mind.UpdatedAt*
+- uid: Minds.SDK.Mind.#ctor(Minds.SDK.Client,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.List{System.String},System.Nullable{System.DateTime},System.Nullable{System.DateTime})
+  commentId: M:Minds.SDK.Mind.#ctor(Minds.SDK.Client,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.List{System.String},System.Nullable{System.DateTime},System.Nullable{System.DateTime})
+  id: '#ctor(Minds.SDK.Client,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.List{System.String},System.Nullable{System.DateTime},System.Nullable{System.DateTime})'
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: Mind(Client, string, string, string, Dictionary<string, object>, List<string>, DateTime?, DateTime?)
+  nameWithType: Mind.Mind(Client, string, string, string, Dictionary<string, object>, List<string>, DateTime?, DateTime?)
+  fullName: Minds.SDK.Mind.Mind(Minds.SDK.Client, string, string, string, System.Collections.Generic.Dictionary<string, object>, System.Collections.Generic.List<string>, System.DateTime?, System.DateTime?)
+  type: Constructor
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: .ctor
+    path: Mind.cs
+    startLine: 62
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Initializes a new instance of the <xref href="Minds.SDK.Mind" data-throw-if-not-resolved="false"></xref> class with the specified client and configuration options.
+  example: []
+  syntax:
+    content: public Mind(Client client, string name, string modelName = null, string provider = null, Dictionary<string, object> parameters = null, List<string> datasources = null, DateTime? createdAt = null, DateTime? updatedAt = null)
+    parameters:
+    - id: client
+      type: Minds.SDK.Client
+      description: The client instance for making API requests.
+    - id: name
+      type: System.String
+      description: The name of the mind.
+    - id: modelName
+      type: System.String
+      description: The name of the model to use.
+    - id: provider
+      type: System.String
+      description: The provider of the model.
+    - id: parameters
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      description: A dictionary of parameters for configuring the mind.
+    - id: datasources
+      type: System.Collections.Generic.List{System.String}
+      description: A list of datasources associated with the mind.
+    - id: createdAt
+      type: System.Nullable{System.DateTime}
+      description: The creation date of the mind.
+    - id: updatedAt
+      type: System.Nullable{System.DateTime}
+      description: The last update date of the mind.
+    content.vb: Public Sub New(client As Client, name As String, modelName As String = Nothing, provider As String = Nothing, parameters As Dictionary(Of String, Object) = Nothing, datasources As List(Of String) = Nothing, createdAt As Date? = Nothing, updatedAt As Date? = Nothing)
+  overload: Minds.SDK.Mind.#ctor*
+  nameWithType.vb: Mind.New(Client, String, String, String, Dictionary(Of String, Object), List(Of String), Date?, Date?)
+  fullName.vb: Minds.SDK.Mind.New(Minds.SDK.Client, String, String, String, System.Collections.Generic.Dictionary(Of String, Object), System.Collections.Generic.List(Of String), Date?, Date?)
+  name.vb: New(Client, String, String, String, Dictionary(Of String, Object), List(Of String), Date?, Date?)
+- uid: Minds.SDK.Mind.ToString
+  commentId: M:Minds.SDK.Mind.ToString
+  id: ToString
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Mind.ToString()
+  fullName: Minds.SDK.Mind.ToString()
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: ToString
+    path: Mind.cs
+    startLine: 80
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Returns a string that represents the current object, including its name, model, provider, creation, and update timestamps.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current mind object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Minds.SDK.Mind.ToString*
+- uid: Minds.SDK.Mind.Update(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:Minds.SDK.Mind.Update(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: Update(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object})
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: Update(string, string, string, string, List<string>, Dictionary<string, object>)
+  nameWithType: Mind.Update(string, string, string, string, List<string>, Dictionary<string, object>)
+  fullName: Minds.SDK.Mind.Update(string, string, string, string, System.Collections.Generic.List<string>, System.Collections.Generic.Dictionary<string, object>)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Update
+    path: Mind.cs
+    startLine: 94
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Updates the mind configuration by optionally changing its name, model, provider, prompt template, datasources, and parameters.
+  example: []
+  syntax:
+    content: public Task Update(string name = null, string modelName = null, string provider = null, string promptTemplate = null, List<string> datasources = null, Dictionary<string, object> parameters = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The new name for the mind (optional).
+    - id: modelName
+      type: System.String
+      description: The new model name for the mind (optional).
+    - id: provider
+      type: System.String
+      description: The new provider for the mind (optional).
+    - id: promptTemplate
+      type: System.String
+      description: The new prompt template to use (optional).
+    - id: datasources
+      type: System.Collections.Generic.List{System.String}
+      description: A list of datasources to associate with the mind (optional).
+    - id: parameters
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      description: A dictionary of parameters to update (optional).
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Update(name As String = Nothing, modelName As String = Nothing, provider As String = Nothing, promptTemplate As String = Nothing, datasources As List(Of String) = Nothing, parameters As Dictionary(Of String, Object) = Nothing) As Task
+  overload: Minds.SDK.Mind.Update*
+  nameWithType.vb: Mind.Update(String, String, String, String, List(Of String), Dictionary(Of String, Object))
+  fullName.vb: Minds.SDK.Mind.Update(String, String, String, String, System.Collections.Generic.List(Of String), System.Collections.Generic.Dictionary(Of String, Object))
+  name.vb: Update(String, String, String, String, List(Of String), Dictionary(Of String, Object))
+- uid: Minds.SDK.Mind.AddDatasource(System.String)
+  commentId: M:Minds.SDK.Mind.AddDatasource(System.String)
+  id: AddDatasource(System.String)
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: AddDatasource(string)
+  nameWithType: Mind.AddDatasource(string)
+  fullName: Minds.SDK.Mind.AddDatasource(string)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: AddDatasource
+    path: Mind.cs
+    startLine: 145
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Adds a datasource to the mind by name.
+  example: []
+  syntax:
+    content: public Task AddDatasource(string datasource)
+    parameters:
+    - id: datasource
+      type: System.String
+      description: The name of the datasource to add.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AddDatasource(datasource As String) As Task
+  overload: Minds.SDK.Mind.AddDatasource*
+  nameWithType.vb: Mind.AddDatasource(String)
+  fullName.vb: Minds.SDK.Mind.AddDatasource(String)
+  name.vb: AddDatasource(String)
+- uid: Minds.SDK.Mind.DelDatasource(System.Object)
+  commentId: M:Minds.SDK.Mind.DelDatasource(System.Object)
+  id: DelDatasource(System.Object)
+  parent: Minds.SDK.Mind
+  langs:
+  - csharp
+  - vb
+  name: DelDatasource(object)
+  nameWithType: Mind.DelDatasource(object)
+  fullName: Minds.SDK.Mind.DelDatasource(object)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/Mind.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: DelDatasource
+    path: Mind.cs
+    startLine: 160
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Deletes a datasource from the mind.
+  example: []
+  syntax:
+    content: public Task DelDatasource(object datasource)
+    parameters:
+    - id: datasource
+      type: System.Object
+      description: The datasource to remove, which can be a <xref href="Minds.SDK.Datasource" data-throw-if-not-resolved="false"></xref> object or a string name.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DelDatasource(datasource As Object) As Task
+  overload: Minds.SDK.Mind.DelDatasource*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Thrown if the provided datasource type is invalid.
+  nameWithType.vb: Mind.DelDatasource(Object)
+  fullName.vb: Minds.SDK.Mind.DelDatasource(Object)
+  name.vb: DelDatasource(Object)
+references:
+- uid: Minds.SDK
+  commentId: N:Minds.SDK
+  href: Minds.html
+  name: Minds.SDK
+  nameWithType: Minds.SDK
+  fullName: Minds.SDK
+  spec.csharp:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+  spec.vb:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Minds.SDK.Mind.Name*
+  commentId: Overload:Minds.SDK.Mind.Name
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_Name
+  name: Name
+  nameWithType: Mind.Name
+  fullName: Minds.SDK.Mind.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Minds.SDK.Mind.ModelName*
+  commentId: Overload:Minds.SDK.Mind.ModelName
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_ModelName
+  name: ModelName
+  nameWithType: Mind.ModelName
+  fullName: Minds.SDK.Mind.ModelName
+- uid: Minds.SDK.Mind.Provider*
+  commentId: Overload:Minds.SDK.Mind.Provider
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_Provider
+  name: Provider
+  nameWithType: Mind.Provider
+  fullName: Minds.SDK.Mind.Provider
+- uid: Minds.SDK.Mind.Parameters*
+  commentId: Overload:Minds.SDK.Mind.Parameters
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_Parameters
+  name: Parameters
+  nameWithType: Mind.Parameters
+  fullName: Minds.SDK.Mind.Parameters
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Minds.SDK.Mind.Datasources*
+  commentId: Overload:Minds.SDK.Mind.Datasources
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_Datasources
+  name: Datasources
+  nameWithType: Mind.Datasources
+  fullName: Minds.SDK.Mind.Datasources
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Minds.SDK.Mind.CreatedAt*
+  commentId: Overload:Minds.SDK.Mind.CreatedAt
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_CreatedAt
+  name: CreatedAt
+  nameWithType: Mind.CreatedAt
+  fullName: Minds.SDK.Mind.CreatedAt
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime?
+  nameWithType: DateTime?
+  fullName: System.DateTime?
+  nameWithType.vb: Date?
+  fullName.vb: Date?
+  name.vb: Date?
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  spec.vb:
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Minds.SDK.Mind.UpdatedAt*
+  commentId: Overload:Minds.SDK.Mind.UpdatedAt
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_UpdatedAt
+  name: UpdatedAt
+  nameWithType: Mind.UpdatedAt
+  fullName: Minds.SDK.Mind.UpdatedAt
+- uid: Minds.SDK.Mind
+  commentId: T:Minds.SDK.Mind
+  href: Minds.SDK.Mind.html
+  name: Mind
+  nameWithType: Mind
+  fullName: Minds.SDK.Mind
+- uid: Minds.SDK.Mind.#ctor*
+  commentId: Overload:Minds.SDK.Mind.#ctor
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind__ctor_Minds_SDK_Client_System_String_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__System_Collections_Generic_List_System_String__System_Nullable_System_DateTime__System_Nullable_System_DateTime__
+  name: Mind
+  nameWithType: Mind.Mind
+  fullName: Minds.SDK.Mind.Mind
+  nameWithType.vb: Mind.New
+  fullName.vb: Minds.SDK.Mind.New
+  name.vb: New
+- uid: Minds.SDK.Client
+  commentId: T:Minds.SDK.Client
+  parent: Minds.SDK
+  href: Minds.SDK.Client.html
+  name: Client
+  nameWithType: Client
+  fullName: Minds.SDK.Client
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Minds.SDK.Mind.ToString*
+  commentId: Overload:Minds.SDK.Mind.ToString
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_ToString
+  name: ToString
+  nameWithType: Mind.ToString
+  fullName: Minds.SDK.Mind.ToString
+- uid: Minds.SDK.Mind.Update*
+  commentId: Overload:Minds.SDK.Mind.Update
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_Update_System_String_System_String_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_Dictionary_System_String_System_Object__
+  name: Update
+  nameWithType: Mind.Update
+  fullName: Minds.SDK.Mind.Update
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Minds.SDK.Mind.AddDatasource*
+  commentId: Overload:Minds.SDK.Mind.AddDatasource
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_AddDatasource_System_String_
+  name: AddDatasource
+  nameWithType: Mind.AddDatasource
+  fullName: Minds.SDK.Mind.AddDatasource
+- uid: Minds.SDK.Datasource
+  commentId: T:Minds.SDK.Datasource
+  href: Minds.SDK.Datasource.html
+  name: Datasource
+  nameWithType: Datasource
+  fullName: Minds.SDK.Datasource
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: Minds.SDK.Mind.DelDatasource*
+  commentId: Overload:Minds.SDK.Mind.DelDatasource
+  href: Minds.SDK.Mind.html#Minds_SDK_Mind_DelDatasource_System_Object_
+  name: DelDatasource
+  nameWithType: Mind.DelDatasource
+  fullName: Minds.SDK.Mind.DelDatasource

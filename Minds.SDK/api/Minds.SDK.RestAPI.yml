@@ -1,0 +1,687 @@
+### YamlMime:ManagedReference
+items:
+- uid: Minds.SDK.RestAPI
+  commentId: T:Minds.SDK.RestAPI
+  id: RestAPI
+  parent: Minds.SDK
+  children:
+  - Minds.SDK.RestAPI.#ctor(System.String,System.String)
+  - Minds.SDK.RestAPI.Delete(System.String)
+  - Minds.SDK.RestAPI.Get``1(System.String)
+  - Minds.SDK.RestAPI.Patch(System.String,System.Object)
+  - Minds.SDK.RestAPI.Post(System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: RestAPI
+  nameWithType: RestAPI
+  fullName: Minds.SDK.RestAPI
+  type: Class
+  source:
+    remote:
+      path: Minds.SDK/RestAPI.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: RestAPI
+    path: RestAPI.cs
+    startLine: 11
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Represents the RestAPI class that provides functionality to interact with MindsDB API endpoints.
+  example: []
+  syntax:
+    content: public class RestAPI
+    content.vb: Public Class RestAPI
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Minds.SDK.RestAPI.#ctor(System.String,System.String)
+  commentId: M:Minds.SDK.RestAPI.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Minds.SDK.RestAPI
+  langs:
+  - csharp
+  - vb
+  name: RestAPI(string, string)
+  nameWithType: RestAPI.RestAPI(string, string)
+  fullName: Minds.SDK.RestAPI.RestAPI(string, string)
+  type: Constructor
+  source:
+    remote:
+      path: Minds.SDK/RestAPI.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: .ctor
+    path: RestAPI.cs
+    startLine: 23
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: >-
+    Initializes a new instance of the <xref href="Minds.SDK.RestAPI" data-throw-if-not-resolved="false"></xref> class.
+
+    Sets up the API base URL and initializes the HttpClient with the provided API key for authorization.
+  example: []
+  syntax:
+    content: public RestAPI(string apiKey, string baseUrl = null)
+    parameters:
+    - id: apiKey
+      type: System.String
+      description: The API key used for authenticating requests.
+    - id: baseUrl
+      type: System.String
+      description: The base URL of the API (optional). If not provided, defaults to https://mdb.ai.
+    content.vb: Public Sub New(apiKey As String, baseUrl As String = Nothing)
+  overload: Minds.SDK.RestAPI.#ctor*
+  nameWithType.vb: RestAPI.New(String, String)
+  fullName.vb: Minds.SDK.RestAPI.New(String, String)
+  name.vb: New(String, String)
+- uid: Minds.SDK.RestAPI.Get``1(System.String)
+  commentId: M:Minds.SDK.RestAPI.Get``1(System.String)
+  id: Get``1(System.String)
+  parent: Minds.SDK.RestAPI
+  langs:
+  - csharp
+  - vb
+  name: Get<T>(string)
+  nameWithType: RestAPI.Get<T>(string)
+  fullName: Minds.SDK.RestAPI.Get<T>(string)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/RestAPI.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Get
+    path: RestAPI.cs
+    startLine: 73
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Sends an asynchronous GET request to the specified URL and returns the deserialized response.
+  example: []
+  syntax:
+    content: public Task<T> Get<T>(string url)
+    parameters:
+    - id: url
+      type: System.String
+      description: The URL relative to the API base path.
+    typeParameters:
+    - id: T
+      description: The type of the response object.
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: A task that represents the asynchronous operation, with the deserialized response as the result.
+    content.vb: Public Function [Get](Of T)(url As String) As Task(Of T)
+  overload: Minds.SDK.RestAPI.Get*
+  nameWithType.vb: RestAPI.Get(Of T)(String)
+  fullName.vb: Minds.SDK.RestAPI.Get(Of T)(String)
+  name.vb: Get(Of T)(String)
+- uid: Minds.SDK.RestAPI.Delete(System.String)
+  commentId: M:Minds.SDK.RestAPI.Delete(System.String)
+  id: Delete(System.String)
+  parent: Minds.SDK.RestAPI
+  langs:
+  - csharp
+  - vb
+  name: Delete(string)
+  nameWithType: RestAPI.Delete(string)
+  fullName: Minds.SDK.RestAPI.Delete(string)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/RestAPI.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Delete
+    path: RestAPI.cs
+    startLine: 86
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Sends an asynchronous DELETE request to the specified URL.
+  example: []
+  syntax:
+    content: public Task<HttpResponseMessage> Delete(string url)
+    parameters:
+    - id: url
+      type: System.String
+      description: The URL relative to the API base path.
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: A task that represents the asynchronous operation, with the HTTP response as the result.
+    content.vb: Public Function Delete(url As String) As Task(Of HttpResponseMessage)
+  overload: Minds.SDK.RestAPI.Delete*
+  nameWithType.vb: RestAPI.Delete(String)
+  fullName.vb: Minds.SDK.RestAPI.Delete(String)
+  name.vb: Delete(String)
+- uid: Minds.SDK.RestAPI.Post(System.String,System.Object)
+  commentId: M:Minds.SDK.RestAPI.Post(System.String,System.Object)
+  id: Post(System.String,System.Object)
+  parent: Minds.SDK.RestAPI
+  langs:
+  - csharp
+  - vb
+  name: Post(string, object)
+  nameWithType: RestAPI.Post(string, object)
+  fullName: Minds.SDK.RestAPI.Post(string, object)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/RestAPI.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Post
+    path: RestAPI.cs
+    startLine: 99
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Sends an asynchronous POST request with the specified data serialized as JSON.
+  example: []
+  syntax:
+    content: public Task<HttpResponseMessage> Post(string url, object data)
+    parameters:
+    - id: url
+      type: System.String
+      description: The URL relative to the API base path.
+    - id: data
+      type: System.Object
+      description: The object to be serialized and sent in the request body.
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: A task that represents the asynchronous operation, with the HTTP response as the result.
+    content.vb: Public Function Post(url As String, data As Object) As Task(Of HttpResponseMessage)
+  overload: Minds.SDK.RestAPI.Post*
+  nameWithType.vb: RestAPI.Post(String, Object)
+  fullName.vb: Minds.SDK.RestAPI.Post(String, Object)
+  name.vb: Post(String, Object)
+- uid: Minds.SDK.RestAPI.Patch(System.String,System.Object)
+  commentId: M:Minds.SDK.RestAPI.Patch(System.String,System.Object)
+  id: Patch(System.String,System.Object)
+  parent: Minds.SDK.RestAPI
+  langs:
+  - csharp
+  - vb
+  name: Patch(string, object)
+  nameWithType: RestAPI.Patch(string, object)
+  fullName: Minds.SDK.RestAPI.Patch(string, object)
+  type: Method
+  source:
+    remote:
+      path: Minds.SDK/RestAPI.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Patch
+    path: RestAPI.cs
+    startLine: 114
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Sends an asynchronous PATCH request with the specified data serialized as JSON.
+  example: []
+  syntax:
+    content: public Task<HttpResponseMessage> Patch(string url, object data)
+    parameters:
+    - id: url
+      type: System.String
+      description: The URL relative to the API base path.
+    - id: data
+      type: System.Object
+      description: The object to be serialized and sent in the request body.
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: A task that represents the asynchronous operation, with the HTTP response as the result.
+    content.vb: Public Function Patch(url As String, data As Object) As Task(Of HttpResponseMessage)
+  overload: Minds.SDK.RestAPI.Patch*
+  nameWithType.vb: RestAPI.Patch(String, Object)
+  fullName.vb: Minds.SDK.RestAPI.Patch(String, Object)
+  name.vb: Patch(String, Object)
+references:
+- uid: Minds.SDK
+  commentId: N:Minds.SDK
+  href: Minds.html
+  name: Minds.SDK
+  nameWithType: Minds.SDK
+  fullName: Minds.SDK
+  spec.csharp:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+  spec.vb:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Minds.SDK.RestAPI
+  commentId: T:Minds.SDK.RestAPI
+  parent: Minds.SDK
+  href: Minds.SDK.RestAPI.html
+  name: RestAPI
+  nameWithType: RestAPI
+  fullName: Minds.SDK.RestAPI
+- uid: Minds.SDK.RestAPI.#ctor*
+  commentId: Overload:Minds.SDK.RestAPI.#ctor
+  href: Minds.SDK.RestAPI.html#Minds_SDK_RestAPI__ctor_System_String_System_String_
+  name: RestAPI
+  nameWithType: RestAPI.RestAPI
+  fullName: Minds.SDK.RestAPI.RestAPI
+  nameWithType.vb: RestAPI.New
+  fullName.vb: Minds.SDK.RestAPI.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Minds.SDK.RestAPI.Get*
+  commentId: Overload:Minds.SDK.RestAPI.Get
+  href: Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Get__1_System_String_
+  name: Get
+  nameWithType: RestAPI.Get
+  fullName: Minds.SDK.RestAPI.Get
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Minds.SDK.RestAPI.Delete*
+  commentId: Overload:Minds.SDK.RestAPI.Delete
+  href: Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Delete_System_String_
+  name: Delete
+  nameWithType: RestAPI.Delete
+  fullName: Minds.SDK.RestAPI.Delete
+- uid: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  commentId: T:System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<HttpResponseMessage>
+  nameWithType: Task<HttpResponseMessage>
+  fullName: System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
+  nameWithType.vb: Task(Of HttpResponseMessage)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Net.Http.HttpResponseMessage)
+  name.vb: Task(Of HttpResponseMessage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  - name: )
+- uid: Minds.SDK.RestAPI.Post*
+  commentId: Overload:Minds.SDK.RestAPI.Post
+  href: Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Post_System_String_System_Object_
+  name: Post
+  nameWithType: RestAPI.Post
+  fullName: Minds.SDK.RestAPI.Post
+- uid: Minds.SDK.RestAPI.Patch*
+  commentId: Overload:Minds.SDK.RestAPI.Patch
+  href: Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Patch_System_String_System_Object_
+  name: Patch
+  nameWithType: RestAPI.Patch
+  fullName: Minds.SDK.RestAPI.Patch

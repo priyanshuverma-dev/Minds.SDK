@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: Minds.SDK.Client
+  commentId: T:Minds.SDK.Client
+  id: Client
+  parent: Minds.SDK
+  children:
+  - Minds.SDK.Client.#ctor(System.String,System.String)
+  - Minds.SDK.Client.Api
+  - Minds.SDK.Client.Datasources
+  - Minds.SDK.Client.Minds
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: Client
+  fullName: Minds.SDK.Client
+  type: Class
+  source:
+    remote:
+      path: Minds.SDK/Client.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Client
+    path: Client.cs
+    startLine: 6
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: >-
+    The <xref href="Minds.SDK.Client" data-throw-if-not-resolved="false"></xref> class provides access to MindsDB API functionalities.
+
+    It manages the connection to the API, exposes interfaces for interacting with datasources and minds, and acts as a wrapper for the API calls.
+  example: []
+  syntax:
+    content: public class Client
+    content.vb: Public Class Client
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Minds.SDK.Client.Api
+  commentId: P:Minds.SDK.Client.Api
+  id: Api
+  parent: Minds.SDK.Client
+  langs:
+  - csharp
+  - vb
+  name: Api
+  nameWithType: Client.Api
+  fullName: Minds.SDK.Client.Api
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Client.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Api
+    path: Client.cs
+    startLine: 11
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the <xref href="Minds.SDK.RestAPI" data-throw-if-not-resolved="false"></xref> instance that manages API calls to MindsDB.
+  example: []
+  syntax:
+    content: public RestAPI Api { get; }
+    parameters: []
+    return:
+      type: Minds.SDK.RestAPI
+    content.vb: Public ReadOnly Property Api As RestAPI
+  overload: Minds.SDK.Client.Api*
+- uid: Minds.SDK.Client.Datasources
+  commentId: P:Minds.SDK.Client.Datasources
+  id: Datasources
+  parent: Minds.SDK.Client
+  langs:
+  - csharp
+  - vb
+  name: Datasources
+  nameWithType: Client.Datasources
+  fullName: Minds.SDK.Client.Datasources
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Client.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Datasources
+    path: Client.cs
+    startLine: 16
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the <xref href="Minds.SDK.Client.Datasources" data-throw-if-not-resolved="false"></xref> manager that handles datasource-related operations.
+  example: []
+  syntax:
+    content: public Datasources Datasources { get; }
+    parameters: []
+    return:
+      type: Minds.SDK.Datasources
+    content.vb: Public ReadOnly Property Datasources As Datasources
+  overload: Minds.SDK.Client.Datasources*
+- uid: Minds.SDK.Client.Minds
+  commentId: P:Minds.SDK.Client.Minds
+  id: Minds
+  parent: Minds.SDK.Client
+  langs:
+  - csharp
+  - vb
+  name: Minds
+  nameWithType: Client.Minds
+  fullName: Minds.SDK.Client.Minds
+  type: Property
+  source:
+    remote:
+      path: Minds.SDK/Client.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: Minds
+    path: Client.cs
+    startLine: 21
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Gets the <xref href="Minds.SDK.Client.Minds" data-throw-if-not-resolved="false"></xref> manager that handles mind-related operations.
+  example: []
+  syntax:
+    content: public Minds Minds { get; }
+    parameters: []
+    return:
+      type: Minds.SDK.Minds
+    content.vb: Public ReadOnly Property Minds As Minds
+  overload: Minds.SDK.Client.Minds*
+- uid: Minds.SDK.Client.#ctor(System.String,System.String)
+  commentId: M:Minds.SDK.Client.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Minds.SDK.Client
+  langs:
+  - csharp
+  - vb
+  name: Client(string, string)
+  nameWithType: Client.Client(string, string)
+  fullName: Minds.SDK.Client.Client(string, string)
+  type: Constructor
+  source:
+    remote:
+      path: Minds.SDK/Client.cs
+      branch: master
+      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
+    id: .ctor
+    path: Client.cs
+    startLine: 28
+  assemblies:
+  - Minds.SDK
+  namespace: Minds.SDK
+  summary: Initializes a new instance of the <xref href="Minds.SDK.Client" data-throw-if-not-resolved="false"></xref> class, which provides access to the MindsDB API, datasources, and minds.
+  example: []
+  syntax:
+    content: public Client(string apiKey, string baseUrl = null)
+    parameters:
+    - id: apiKey
+      type: System.String
+      description: The API key required for authentication with the MindsDB API.
+    - id: baseUrl
+      type: System.String
+      description: The base URL of the MindsDB API (optional).
+    content.vb: Public Sub New(apiKey As String, baseUrl As String = Nothing)
+  overload: Minds.SDK.Client.#ctor*
+  nameWithType.vb: Client.New(String, String)
+  fullName.vb: Minds.SDK.Client.New(String, String)
+  name.vb: New(String, String)
+references:
+- uid: Minds.SDK.Client
+  commentId: T:Minds.SDK.Client
+  parent: Minds.SDK
+  href: Minds.SDK.Client.html
+  name: Client
+  nameWithType: Client
+  fullName: Minds.SDK.Client
+- uid: Minds.SDK
+  commentId: N:Minds.SDK
+  href: Minds.html
+  name: Minds.SDK
+  nameWithType: Minds.SDK
+  fullName: Minds.SDK
+  spec.csharp:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+  spec.vb:
+  - uid: Minds
+    name: Minds
+    href: Minds.html
+  - name: .
+  - uid: Minds.SDK
+    name: SDK
+    href: Minds.SDK.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Minds.SDK.RestAPI
+  commentId: T:Minds.SDK.RestAPI
+  parent: Minds.SDK
+  href: Minds.SDK.RestAPI.html
+  name: RestAPI
+  nameWithType: RestAPI
+  fullName: Minds.SDK.RestAPI
+- uid: Minds.SDK.Client.Api*
+  commentId: Overload:Minds.SDK.Client.Api
+  href: Minds.SDK.Client.html#Minds_SDK_Client_Api
+  name: Api
+  nameWithType: Client.Api
+  fullName: Minds.SDK.Client.Api
+- uid: Minds.SDK.Client.Datasources
+  commentId: P:Minds.SDK.Client.Datasources
+  href: Minds.SDK.Client.html#Minds_SDK_Client_Datasources
+  name: Datasources
+  nameWithType: Client.Datasources
+  fullName: Minds.SDK.Client.Datasources
+- uid: Minds.SDK.Client.Datasources*
+  commentId: Overload:Minds.SDK.Client.Datasources
+  href: Minds.SDK.Client.html#Minds_SDK_Client_Datasources
+  name: Datasources
+  nameWithType: Client.Datasources
+  fullName: Minds.SDK.Client.Datasources
+- uid: Minds.SDK.Datasources
+  commentId: T:Minds.SDK.Datasources
+  parent: Minds.SDK
+  href: Minds.SDK.Datasources.html
+  name: Datasources
+  nameWithType: Datasources
+  fullName: Minds.SDK.Datasources
+- uid: Minds.SDK.Client.Minds
+  commentId: P:Minds.SDK.Client.Minds
+  href: Minds.SDK.Client.html#Minds_SDK_Client_Minds
+  name: Minds
+  nameWithType: Client.Minds
+  fullName: Minds.SDK.Client.Minds
+- uid: Minds.SDK.Client.Minds*
+  commentId: Overload:Minds.SDK.Client.Minds
+  href: Minds.SDK.Client.html#Minds_SDK_Client_Minds
+  name: Minds
+  nameWithType: Client.Minds
+  fullName: Minds.SDK.Client.Minds
+- uid: Minds.SDK.Minds
+  commentId: T:Minds.SDK.Minds
+  parent: Minds.SDK
+  href: Minds.SDK.Minds.html
+  name: Minds
+  nameWithType: Minds
+  fullName: Minds.SDK.Minds
+- uid: Minds.SDK.Client.#ctor*
+  commentId: Overload:Minds.SDK.Client.#ctor
+  href: Minds.SDK.Client.html#Minds_SDK_Client__ctor_System_String_System_String_
+  name: Client
+  nameWithType: Client.Client
+  fullName: Minds.SDK.Client.Client
+  nameWithType.vb: Client.New
+  fullName.vb: Minds.SDK.Client.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
