@@ -82,7 +82,7 @@ var client = new("YOUR_API_KEY");
 
 ## 📘 API Reference
 
-### [Client](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Client.cs)
+### [Client](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Client.cs)
 
 | Property                     | Description                   |
 | ---------------------------- | ----------------------------- |
@@ -90,7 +90,7 @@ var client = new("YOUR_API_KEY");
 | `Datasources Datasources`     | Manages data sources          |
 | `Minds Minds`                 | Manages Minds (AI models)     |
 
-### [Datasources](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Datasources.cs)
+### [Datasources](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Datasources.cs)
 
 | Method                        | Description                   |
 | ----------------------------- | ----------------------------- |
@@ -99,7 +99,7 @@ var client = new("YOUR_API_KEY");
 | `Create(DatabaseConfig config)`| Create a new datasource       |
 | `Drop(string name)`           | Delete a datasource           |
 
-### [Minds](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Minds.cs)
+### [Minds](https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs)
 
 | Method                        | Description                   |
 | ----------------------------- | ----------------------------- |
