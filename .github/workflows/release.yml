@@ -28,19 +28,19 @@ jobs:
         run: dotnet publish Minds.SDK/Minds.SDK.csproj -c Release -o output
 
       - name: Create ZIP of output
-        run: zip -r Minds-${{github.ref}}.zip output/*  # Create a ZIP file of the output directory
+        run: zip -r Minds-${{github.ref_name}}.zip output/*  # Create a ZIP file of the output directory
 
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref }}  # This uses the tag that triggered the workflow
-          name: Minds.SDK ${{ github.ref }}
+          tag_name: ${{ github.ref_name }}  # This uses the tag that triggered the workflow
+          name: Minds.SDK ${{ github.ref_name }}
           draft: false
           prerelease: false
           files: |
             output/*
-            Minds-${{github.ref}}.zip
+            Minds-${{github.ref_name}}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
