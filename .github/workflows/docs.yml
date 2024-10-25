@@ -40,7 +40,7 @@ jobs:
 
       # Build the documentation using DocFX
       - name: Generate Documentation
-        run: docfx ./Minds.SDK/docfx.json --verbose
+        run: cd Minds.SDK && docfx build
         timeout-minutes: 10  # Adjust as necessary
 
       # Deploy the documentation to GitHub Pages
@@ -48,4 +48,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site  # Specify the directory where DocFX outputs the static site
+          publish_dir: ./Minds.SDK/_site  # Specify the directory where DocFX outputs the static site
