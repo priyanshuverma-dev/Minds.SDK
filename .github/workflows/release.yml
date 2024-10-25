@@ -19,13 +19,16 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore Minds.SDK/Minds.SDK.csproj
 
       - name: Build project
-        run: dotnet build --configuration Release
+        run: dotnet build Minds.SDK/Minds.SDK.csproj --configuration Release
 
       - name: Publish project
-        run: dotnet publish --configuration Release --output ./output
+        run: dotnet publish Minds.SDK/Minds.SDK.csproj -c Release -o output
+
+      - name: Create ZIP of output
+        run: zip -r Minds-${{github.ref}}.zip output/*  # Create a ZIP file of the output directory
 
       - name: Create Release
         id: create_release
@@ -35,12 +38,9 @@ jobs:
           name: Minds.SDK ${{ github.ref }}
           draft: false
           prerelease: false
+          files: |
+            output/*
+            Minds-${{github.ref}}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload Release Assets
-        uses: softprops/action-gh-release@v1
-        with:
-          files: ./output/**  # Adjust to the output folder where your build artifacts are located
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
