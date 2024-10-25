@@ -7,7 +7,7 @@ namespace Minds.SDK.ConsoleTest {
     class Program {
         static async Task Main(string[] args) {
             // Create an instance of RestAPI (assuming it takes an API key as a parameter)
-            var apiKey = "e02d9bde2a76f16bd6285931ab403d6a919cce899ec3273e81ff089eeb3914b3"; // Replace with your actual API key
+            var apiKey = "api-key"; // Replace with your actual API key
             Client client = new(apiKey);
 
             // Call the SDK methods and print results

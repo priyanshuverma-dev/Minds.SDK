@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Minds.SDK")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A unofficial SDK for MindsDB in c#")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Minds.SDK")]
