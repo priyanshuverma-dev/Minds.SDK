@@ -33,7 +33,9 @@ jobs:
 
       # Build the documentation using DocFX
       - name: Generate Documentation
-        run: docfx ./docfx.json  # Adjust this command based on your docfx.json location
+        run: |
+          ls
+          docfx ./docfx.json  # Adjust this command based on your docfx.json location
 
       # Deploy the documentation to GitHub Pages
       - name: Deploy to GitHub Pages
