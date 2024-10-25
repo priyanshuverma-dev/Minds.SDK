@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Getting Started | Minds SDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Getting Started | Minds SDK ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/docs/getting-started.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Minds SDK">
+            Minds SDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<p>This page will guide you through using <strong>Minds.SDK</strong> in a basic console application. You'll learn how to create a new Mind, list all minds, and delete a mind using the SDK.</p>
+<h2 id="example-basic-mindssdk-usage">Example: Basic Minds.SDK Usage</h2>
+<p>Below is a simple console application that demonstrates how to use the Minds.SDK:</p>
+<pre><code class="lang-csharp">using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Minds.SDK; // Ensure your SDK's namespace is used
+
+namespace Minds.SDK.ConsoleTest {
+    class Program {
+        static async Task Main(string[] args) {
+            // Create an instance of Client (replace with your actual API key)
+            var apiKey = &quot;api-key&quot;; // Replace with your actual API key
+            Client client = new(apiKey);
+
+            // Call the SDK methods and print results
+            await TestMindsSdk(client);
+
+            Console.ReadLine(); // Pause console for reading output
+        }
+
+        private static async Task TestMindsSdk(Client client) {
+            try {
+                // Test creating a new mind
+                Console.WriteLine(&quot;Creating a new Mind...&quot;);
+                var newMind = await client.Minds.Create(&quot;TestMind&quot;);
+                Console.WriteLine($&quot;Created Mind: {newMind.Name}&quot;);
+
+                // List all minds
+                Console.WriteLine(&quot;Listing all minds...&quot;);
+                var mindsList = await client.Minds.List();
+                foreach (var mind in mindsList) {
+                    Console.WriteLine($&quot;Mind: {mind.Name}&quot;);
+                }
+
+                // Delete the created mind
+                Console.WriteLine(&quot;Deleting TestMind...&quot;);
+                await client.Minds.Drop(&quot;TestMind&quot;);
+                Console.WriteLine(&quot;TestMind deleted.&quot;);
+
+            } catch (Exception ex) {
+                Console.WriteLine($&quot;Error occurred: {ex.Message}&quot;);
+            }
+        }
+    }
+}
+</code></pre>
+<h3 id="key-steps">Key Steps:</h3>
+<ol>
+<li><p><strong>Instantiate the SDK Client</strong>:
+Initialize the SDK client using your API key:</p>
+<pre><code class="lang-csharp">Client client = new(apiKey);
+</code></pre>
+</li>
+<li><p><strong>Create a New Mind</strong>:
+The example shows how to create a new mind:</p>
+<pre><code class="lang-csharp">var newMind = await client.Minds.Create(&quot;TestMind&quot;);
+</code></pre>
+</li>
+<li><p><strong>List Existing Minds</strong>:
+List all existing minds in your account:</p>
+<pre><code class="lang-csharp">var mindsList = await client.Minds.List();
+</code></pre>
+</li>
+<li><p><strong>Delete a Mind</strong>:
+The example also demonstrates deleting a mind:</p>
+<pre><code class="lang-csharp">await client.Minds.Drop(&quot;TestMind&quot;);
+</code></pre>
+</li>
+</ol>
+<h3 id="next-steps">Next Steps:</h3>
+<ul>
+<li>Learn more about the SDK methods in the <a href="../api/Minds.SDK.html">API Reference</a>.</li>
+<li>Explore advanced use cases in the <a href="../api/Minds.SDK.Client.html">Advanced Topics</a>.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

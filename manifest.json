@@ -1,0 +1,218 @@
+{
+  "source_base_path": "/home/runner/work/Minds.SDK/Minds.SDK/Minds.SDK",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.Client.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.Datasource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.Datasource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.Datasources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.Datasources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.ForbiddenException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.ForbiddenException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.Mind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.Mind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.Minds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.Minds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.ObjectNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.ObjectNotFoundException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.ObjectNotSupportedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.ObjectNotSupportedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.RestAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.RestAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.UnauthorizedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.UnauthorizedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.UnknownErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.UnknownErrorException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Minds.SDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Minds.SDK.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

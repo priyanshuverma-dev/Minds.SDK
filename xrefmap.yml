@@ -1,0 +1,748 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Minds.SDK
+  name: Minds.SDK
+  href: api/Minds.SDK.html
+  commentId: N:Minds.SDK
+  fullName: Minds.SDK
+  nameWithType: Minds.SDK
+- uid: Minds.SDK.Client
+  name: Client
+  href: api/Minds.SDK.Client.html
+  commentId: T:Minds.SDK.Client
+  fullName: Minds.SDK.Client
+  nameWithType: Client
+- uid: Minds.SDK.Client.#ctor(System.String,System.String)
+  name: Client(string, string)
+  href: api/Minds.SDK.Client.html#Minds_SDK_Client__ctor_System_String_System_String_
+  commentId: M:Minds.SDK.Client.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: Minds.SDK.Client.Client(string, string)
+  fullName.vb: Minds.SDK.Client.New(String, String)
+  nameWithType: Client.Client(string, string)
+  nameWithType.vb: Client.New(String, String)
+- uid: Minds.SDK.Client.#ctor*
+  name: Client
+  href: api/Minds.SDK.Client.html#Minds_SDK_Client__ctor_
+  commentId: Overload:Minds.SDK.Client.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.Client.Client
+  fullName.vb: Minds.SDK.Client.New
+  nameWithType: Client.Client
+  nameWithType.vb: Client.New
+- uid: Minds.SDK.Client.Api
+  name: Api
+  href: api/Minds.SDK.Client.html#Minds_SDK_Client_Api
+  commentId: P:Minds.SDK.Client.Api
+  fullName: Minds.SDK.Client.Api
+  nameWithType: Client.Api
+- uid: Minds.SDK.Client.Api*
+  name: Api
+  href: api/Minds.SDK.Client.html#Minds_SDK_Client_Api_
+  commentId: Overload:Minds.SDK.Client.Api
+  isSpec: "True"
+  fullName: Minds.SDK.Client.Api
+  nameWithType: Client.Api
+- uid: Minds.SDK.Client.Datasources
+  name: Datasources
+  href: api/Minds.SDK.Client.html#Minds_SDK_Client_Datasources
+  commentId: P:Minds.SDK.Client.Datasources
+  fullName: Minds.SDK.Client.Datasources
+  nameWithType: Client.Datasources
+- uid: Minds.SDK.Client.Datasources*
+  name: Datasources
+  href: api/Minds.SDK.Client.html#Minds_SDK_Client_Datasources_
+  commentId: Overload:Minds.SDK.Client.Datasources
+  isSpec: "True"
+  fullName: Minds.SDK.Client.Datasources
+  nameWithType: Client.Datasources
+- uid: Minds.SDK.Client.Minds
+  name: Minds
+  href: api/Minds.SDK.Client.html#Minds_SDK_Client_Minds
+  commentId: P:Minds.SDK.Client.Minds
+  fullName: Minds.SDK.Client.Minds
+  nameWithType: Client.Minds
+- uid: Minds.SDK.Client.Minds*
+  name: Minds
+  href: api/Minds.SDK.Client.html#Minds_SDK_Client_Minds_
+  commentId: Overload:Minds.SDK.Client.Minds
+  isSpec: "True"
+  fullName: Minds.SDK.Client.Minds
+  nameWithType: Client.Minds
+- uid: Minds.SDK.Datasource
+  name: Datasource
+  href: api/Minds.SDK.Datasource.html
+  commentId: T:Minds.SDK.Datasource
+  fullName: Minds.SDK.Datasource
+  nameWithType: Datasource
+- uid: Minds.SDK.Datasources
+  name: Datasources
+  href: api/Minds.SDK.Datasources.html
+  commentId: T:Minds.SDK.Datasources
+  fullName: Minds.SDK.Datasources
+  nameWithType: Datasources
+- uid: Minds.SDK.Datasources.#ctor(Minds.SDK.Client)
+  name: Datasources(Client)
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources__ctor_Minds_SDK_Client_
+  commentId: M:Minds.SDK.Datasources.#ctor(Minds.SDK.Client)
+  name.vb: New(Client)
+  fullName: Minds.SDK.Datasources.Datasources(Minds.SDK.Client)
+  fullName.vb: Minds.SDK.Datasources.New(Minds.SDK.Client)
+  nameWithType: Datasources.Datasources(Client)
+  nameWithType.vb: Datasources.New(Client)
+- uid: Minds.SDK.Datasources.#ctor*
+  name: Datasources
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources__ctor_
+  commentId: Overload:Minds.SDK.Datasources.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.Datasources.Datasources
+  fullName.vb: Minds.SDK.Datasources.New
+  nameWithType: Datasources.Datasources
+  nameWithType.vb: Datasources.New
+- uid: Minds.SDK.Datasources.Create(DatabaseConfig,System.Boolean)
+  name: Create(DatabaseConfig, bool)
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources_Create_DatabaseConfig_System_Boolean_
+  commentId: M:Minds.SDK.Datasources.Create(DatabaseConfig,System.Boolean)
+  name.vb: Create(DatabaseConfig, Boolean)
+  fullName: Minds.SDK.Datasources.Create(DatabaseConfig, bool)
+  fullName.vb: Minds.SDK.Datasources.Create(DatabaseConfig, Boolean)
+  nameWithType: Datasources.Create(DatabaseConfig, bool)
+  nameWithType.vb: Datasources.Create(DatabaseConfig, Boolean)
+- uid: Minds.SDK.Datasources.Create*
+  name: Create
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources_Create_
+  commentId: Overload:Minds.SDK.Datasources.Create
+  isSpec: "True"
+  fullName: Minds.SDK.Datasources.Create
+  nameWithType: Datasources.Create
+- uid: Minds.SDK.Datasources.Drop(System.String)
+  name: Drop(string)
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources_Drop_System_String_
+  commentId: M:Minds.SDK.Datasources.Drop(System.String)
+  name.vb: Drop(String)
+  fullName: Minds.SDK.Datasources.Drop(string)
+  fullName.vb: Minds.SDK.Datasources.Drop(String)
+  nameWithType: Datasources.Drop(string)
+  nameWithType.vb: Datasources.Drop(String)
+- uid: Minds.SDK.Datasources.Drop*
+  name: Drop
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources_Drop_
+  commentId: Overload:Minds.SDK.Datasources.Drop
+  isSpec: "True"
+  fullName: Minds.SDK.Datasources.Drop
+  nameWithType: Datasources.Drop
+- uid: Minds.SDK.Datasources.Get(System.String)
+  name: Get(string)
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources_Get_System_String_
+  commentId: M:Minds.SDK.Datasources.Get(System.String)
+  name.vb: Get(String)
+  fullName: Minds.SDK.Datasources.Get(string)
+  fullName.vb: Minds.SDK.Datasources.Get(String)
+  nameWithType: Datasources.Get(string)
+  nameWithType.vb: Datasources.Get(String)
+- uid: Minds.SDK.Datasources.Get*
+  name: Get
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources_Get_
+  commentId: Overload:Minds.SDK.Datasources.Get
+  isSpec: "True"
+  fullName: Minds.SDK.Datasources.Get
+  nameWithType: Datasources.Get
+- uid: Minds.SDK.Datasources.List
+  name: List()
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources_List
+  commentId: M:Minds.SDK.Datasources.List
+  fullName: Minds.SDK.Datasources.List()
+  nameWithType: Datasources.List()
+- uid: Minds.SDK.Datasources.List*
+  name: List
+  href: api/Minds.SDK.Datasources.html#Minds_SDK_Datasources_List_
+  commentId: Overload:Minds.SDK.Datasources.List
+  isSpec: "True"
+  fullName: Minds.SDK.Datasources.List
+  nameWithType: Datasources.List
+- uid: Minds.SDK.ForbiddenException
+  name: ForbiddenException
+  href: api/Minds.SDK.ForbiddenException.html
+  commentId: T:Minds.SDK.ForbiddenException
+  fullName: Minds.SDK.ForbiddenException
+  nameWithType: ForbiddenException
+- uid: Minds.SDK.ForbiddenException.#ctor
+  name: ForbiddenException()
+  href: api/Minds.SDK.ForbiddenException.html#Minds_SDK_ForbiddenException__ctor
+  commentId: M:Minds.SDK.ForbiddenException.#ctor
+  name.vb: New()
+  fullName: Minds.SDK.ForbiddenException.ForbiddenException()
+  fullName.vb: Minds.SDK.ForbiddenException.New()
+  nameWithType: ForbiddenException.ForbiddenException()
+  nameWithType.vb: ForbiddenException.New()
+- uid: Minds.SDK.ForbiddenException.#ctor(System.String)
+  name: ForbiddenException(string)
+  href: api/Minds.SDK.ForbiddenException.html#Minds_SDK_ForbiddenException__ctor_System_String_
+  commentId: M:Minds.SDK.ForbiddenException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Minds.SDK.ForbiddenException.ForbiddenException(string)
+  fullName.vb: Minds.SDK.ForbiddenException.New(String)
+  nameWithType: ForbiddenException.ForbiddenException(string)
+  nameWithType.vb: ForbiddenException.New(String)
+- uid: Minds.SDK.ForbiddenException.#ctor(System.String,System.Exception)
+  name: ForbiddenException(string, Exception)
+  href: api/Minds.SDK.ForbiddenException.html#Minds_SDK_ForbiddenException__ctor_System_String_System_Exception_
+  commentId: M:Minds.SDK.ForbiddenException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Minds.SDK.ForbiddenException.ForbiddenException(string, System.Exception)
+  fullName.vb: Minds.SDK.ForbiddenException.New(String, System.Exception)
+  nameWithType: ForbiddenException.ForbiddenException(string, Exception)
+  nameWithType.vb: ForbiddenException.New(String, Exception)
+- uid: Minds.SDK.ForbiddenException.#ctor*
+  name: ForbiddenException
+  href: api/Minds.SDK.ForbiddenException.html#Minds_SDK_ForbiddenException__ctor_
+  commentId: Overload:Minds.SDK.ForbiddenException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.ForbiddenException.ForbiddenException
+  fullName.vb: Minds.SDK.ForbiddenException.New
+  nameWithType: ForbiddenException.ForbiddenException
+  nameWithType.vb: ForbiddenException.New
+- uid: Minds.SDK.Mind
+  name: Mind
+  href: api/Minds.SDK.Mind.html
+  commentId: T:Minds.SDK.Mind
+  fullName: Minds.SDK.Mind
+  nameWithType: Mind
+- uid: Minds.SDK.Mind.#ctor(Minds.SDK.Client,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.List{System.String},System.Nullable{System.DateTime},System.Nullable{System.DateTime})
+  name: Mind(Client, string, string, string, Dictionary<string, object>, List<string>, DateTime?, DateTime?)
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind__ctor_Minds_SDK_Client_System_String_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__System_Collections_Generic_List_System_String__System_Nullable_System_DateTime__System_Nullable_System_DateTime__
+  commentId: M:Minds.SDK.Mind.#ctor(Minds.SDK.Client,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.List{System.String},System.Nullable{System.DateTime},System.Nullable{System.DateTime})
+  name.vb: New(Client, String, String, String, Dictionary(Of String, Object), List(Of String), Date?, Date?)
+  fullName: Minds.SDK.Mind.Mind(Minds.SDK.Client, string, string, string, System.Collections.Generic.Dictionary<string, object>, System.Collections.Generic.List<string>, System.DateTime?, System.DateTime?)
+  fullName.vb: Minds.SDK.Mind.New(Minds.SDK.Client, String, String, String, System.Collections.Generic.Dictionary(Of String, Object), System.Collections.Generic.List(Of String), Date?, Date?)
+  nameWithType: Mind.Mind(Client, string, string, string, Dictionary<string, object>, List<string>, DateTime?, DateTime?)
+  nameWithType.vb: Mind.New(Client, String, String, String, Dictionary(Of String, Object), List(Of String), Date?, Date?)
+- uid: Minds.SDK.Mind.#ctor*
+  name: Mind
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind__ctor_
+  commentId: Overload:Minds.SDK.Mind.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.Mind.Mind
+  fullName.vb: Minds.SDK.Mind.New
+  nameWithType: Mind.Mind
+  nameWithType.vb: Mind.New
+- uid: Minds.SDK.Mind.AddDatasource(System.String)
+  name: AddDatasource(string)
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_AddDatasource_System_String_
+  commentId: M:Minds.SDK.Mind.AddDatasource(System.String)
+  name.vb: AddDatasource(String)
+  fullName: Minds.SDK.Mind.AddDatasource(string)
+  fullName.vb: Minds.SDK.Mind.AddDatasource(String)
+  nameWithType: Mind.AddDatasource(string)
+  nameWithType.vb: Mind.AddDatasource(String)
+- uid: Minds.SDK.Mind.AddDatasource*
+  name: AddDatasource
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_AddDatasource_
+  commentId: Overload:Minds.SDK.Mind.AddDatasource
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.AddDatasource
+  nameWithType: Mind.AddDatasource
+- uid: Minds.SDK.Mind.CreatedAt
+  name: CreatedAt
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_CreatedAt
+  commentId: P:Minds.SDK.Mind.CreatedAt
+  fullName: Minds.SDK.Mind.CreatedAt
+  nameWithType: Mind.CreatedAt
+- uid: Minds.SDK.Mind.CreatedAt*
+  name: CreatedAt
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_CreatedAt_
+  commentId: Overload:Minds.SDK.Mind.CreatedAt
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.CreatedAt
+  nameWithType: Mind.CreatedAt
+- uid: Minds.SDK.Mind.Datasources
+  name: Datasources
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Datasources
+  commentId: P:Minds.SDK.Mind.Datasources
+  fullName: Minds.SDK.Mind.Datasources
+  nameWithType: Mind.Datasources
+- uid: Minds.SDK.Mind.Datasources*
+  name: Datasources
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Datasources_
+  commentId: Overload:Minds.SDK.Mind.Datasources
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.Datasources
+  nameWithType: Mind.Datasources
+- uid: Minds.SDK.Mind.DelDatasource(System.Object)
+  name: DelDatasource(object)
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_DelDatasource_System_Object_
+  commentId: M:Minds.SDK.Mind.DelDatasource(System.Object)
+  name.vb: DelDatasource(Object)
+  fullName: Minds.SDK.Mind.DelDatasource(object)
+  fullName.vb: Minds.SDK.Mind.DelDatasource(Object)
+  nameWithType: Mind.DelDatasource(object)
+  nameWithType.vb: Mind.DelDatasource(Object)
+- uid: Minds.SDK.Mind.DelDatasource*
+  name: DelDatasource
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_DelDatasource_
+  commentId: Overload:Minds.SDK.Mind.DelDatasource
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.DelDatasource
+  nameWithType: Mind.DelDatasource
+- uid: Minds.SDK.Mind.ModelName
+  name: ModelName
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_ModelName
+  commentId: P:Minds.SDK.Mind.ModelName
+  fullName: Minds.SDK.Mind.ModelName
+  nameWithType: Mind.ModelName
+- uid: Minds.SDK.Mind.ModelName*
+  name: ModelName
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_ModelName_
+  commentId: Overload:Minds.SDK.Mind.ModelName
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.ModelName
+  nameWithType: Mind.ModelName
+- uid: Minds.SDK.Mind.Name
+  name: Name
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Name
+  commentId: P:Minds.SDK.Mind.Name
+  fullName: Minds.SDK.Mind.Name
+  nameWithType: Mind.Name
+- uid: Minds.SDK.Mind.Name*
+  name: Name
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Name_
+  commentId: Overload:Minds.SDK.Mind.Name
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.Name
+  nameWithType: Mind.Name
+- uid: Minds.SDK.Mind.Parameters
+  name: Parameters
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Parameters
+  commentId: P:Minds.SDK.Mind.Parameters
+  fullName: Minds.SDK.Mind.Parameters
+  nameWithType: Mind.Parameters
+- uid: Minds.SDK.Mind.Parameters*
+  name: Parameters
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Parameters_
+  commentId: Overload:Minds.SDK.Mind.Parameters
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.Parameters
+  nameWithType: Mind.Parameters
+- uid: Minds.SDK.Mind.Provider
+  name: Provider
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Provider
+  commentId: P:Minds.SDK.Mind.Provider
+  fullName: Minds.SDK.Mind.Provider
+  nameWithType: Mind.Provider
+- uid: Minds.SDK.Mind.Provider*
+  name: Provider
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Provider_
+  commentId: Overload:Minds.SDK.Mind.Provider
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.Provider
+  nameWithType: Mind.Provider
+- uid: Minds.SDK.Mind.ToString
+  name: ToString()
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_ToString
+  commentId: M:Minds.SDK.Mind.ToString
+  fullName: Minds.SDK.Mind.ToString()
+  nameWithType: Mind.ToString()
+- uid: Minds.SDK.Mind.ToString*
+  name: ToString
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_ToString_
+  commentId: Overload:Minds.SDK.Mind.ToString
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.ToString
+  nameWithType: Mind.ToString
+- uid: Minds.SDK.Mind.Update(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object})
+  name: Update(string, string, string, string, List<string>, Dictionary<string, object>)
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Update_System_String_System_String_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:Minds.SDK.Mind.Update(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object})
+  name.vb: Update(String, String, String, String, List(Of String), Dictionary(Of String, Object))
+  fullName: Minds.SDK.Mind.Update(string, string, string, string, System.Collections.Generic.List<string>, System.Collections.Generic.Dictionary<string, object>)
+  fullName.vb: Minds.SDK.Mind.Update(String, String, String, String, System.Collections.Generic.List(Of String), System.Collections.Generic.Dictionary(Of String, Object))
+  nameWithType: Mind.Update(string, string, string, string, List<string>, Dictionary<string, object>)
+  nameWithType.vb: Mind.Update(String, String, String, String, List(Of String), Dictionary(Of String, Object))
+- uid: Minds.SDK.Mind.Update*
+  name: Update
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_Update_
+  commentId: Overload:Minds.SDK.Mind.Update
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.Update
+  nameWithType: Mind.Update
+- uid: Minds.SDK.Mind.UpdatedAt
+  name: UpdatedAt
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_UpdatedAt
+  commentId: P:Minds.SDK.Mind.UpdatedAt
+  fullName: Minds.SDK.Mind.UpdatedAt
+  nameWithType: Mind.UpdatedAt
+- uid: Minds.SDK.Mind.UpdatedAt*
+  name: UpdatedAt
+  href: api/Minds.SDK.Mind.html#Minds_SDK_Mind_UpdatedAt_
+  commentId: Overload:Minds.SDK.Mind.UpdatedAt
+  isSpec: "True"
+  fullName: Minds.SDK.Mind.UpdatedAt
+  nameWithType: Mind.UpdatedAt
+- uid: Minds.SDK.Minds
+  name: Minds
+  href: api/Minds.SDK.Minds.html
+  commentId: T:Minds.SDK.Minds
+  fullName: Minds.SDK.Minds
+  nameWithType: Minds
+- uid: Minds.SDK.Minds.#ctor(Minds.SDK.Client)
+  name: Minds(Client)
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds__ctor_Minds_SDK_Client_
+  commentId: M:Minds.SDK.Minds.#ctor(Minds.SDK.Client)
+  name.vb: New(Client)
+  fullName: Minds.SDK.Minds.Minds(Minds.SDK.Client)
+  fullName.vb: Minds.SDK.Minds.New(Minds.SDK.Client)
+  nameWithType: Minds.Minds(Client)
+  nameWithType.vb: Minds.New(Client)
+- uid: Minds.SDK.Minds.#ctor*
+  name: Minds
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds__ctor_
+  commentId: Overload:Minds.SDK.Minds.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.Minds.Minds
+  fullName.vb: Minds.SDK.Minds.New
+  nameWithType: Minds.Minds
+  nameWithType.vb: Minds.New
+- uid: Minds.SDK.Minds.CheckDatasource(System.Object)
+  name: CheckDatasource(object)
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_CheckDatasource_System_Object_
+  commentId: M:Minds.SDK.Minds.CheckDatasource(System.Object)
+  name.vb: CheckDatasource(Object)
+  fullName: Minds.SDK.Minds.CheckDatasource(object)
+  fullName.vb: Minds.SDK.Minds.CheckDatasource(Object)
+  nameWithType: Minds.CheckDatasource(object)
+  nameWithType.vb: Minds.CheckDatasource(Object)
+- uid: Minds.SDK.Minds.CheckDatasource*
+  name: CheckDatasource
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_CheckDatasource_
+  commentId: Overload:Minds.SDK.Minds.CheckDatasource
+  isSpec: "True"
+  fullName: Minds.SDK.Minds.CheckDatasource
+  nameWithType: Minds.CheckDatasource
+- uid: Minds.SDK.Minds.Create(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)
+  name: Create(string, string, string, string, List<string>, Dictionary<string, object>, bool)
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_Create_System_String_System_String_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_Dictionary_System_String_System_Object__System_Boolean_
+  commentId: M:Minds.SDK.Minds.Create(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)
+  name.vb: Create(String, String, String, String, List(Of String), Dictionary(Of String, Object), Boolean)
+  fullName: Minds.SDK.Minds.Create(string, string, string, string, System.Collections.Generic.List<string>, System.Collections.Generic.Dictionary<string, object>, bool)
+  fullName.vb: Minds.SDK.Minds.Create(String, String, String, String, System.Collections.Generic.List(Of String), System.Collections.Generic.Dictionary(Of String, Object), Boolean)
+  nameWithType: Minds.Create(string, string, string, string, List<string>, Dictionary<string, object>, bool)
+  nameWithType.vb: Minds.Create(String, String, String, String, List(Of String), Dictionary(Of String, Object), Boolean)
+- uid: Minds.SDK.Minds.Create*
+  name: Create
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_Create_
+  commentId: Overload:Minds.SDK.Minds.Create
+  isSpec: "True"
+  fullName: Minds.SDK.Minds.Create
+  nameWithType: Minds.Create
+- uid: Minds.SDK.Minds.Drop(System.String)
+  name: Drop(string)
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_Drop_System_String_
+  commentId: M:Minds.SDK.Minds.Drop(System.String)
+  name.vb: Drop(String)
+  fullName: Minds.SDK.Minds.Drop(string)
+  fullName.vb: Minds.SDK.Minds.Drop(String)
+  nameWithType: Minds.Drop(string)
+  nameWithType.vb: Minds.Drop(String)
+- uid: Minds.SDK.Minds.Drop*
+  name: Drop
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_Drop_
+  commentId: Overload:Minds.SDK.Minds.Drop
+  isSpec: "True"
+  fullName: Minds.SDK.Minds.Drop
+  nameWithType: Minds.Drop
+- uid: Minds.SDK.Minds.Get(System.String)
+  name: Get(string)
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_Get_System_String_
+  commentId: M:Minds.SDK.Minds.Get(System.String)
+  name.vb: Get(String)
+  fullName: Minds.SDK.Minds.Get(string)
+  fullName.vb: Minds.SDK.Minds.Get(String)
+  nameWithType: Minds.Get(string)
+  nameWithType.vb: Minds.Get(String)
+- uid: Minds.SDK.Minds.Get*
+  name: Get
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_Get_
+  commentId: Overload:Minds.SDK.Minds.Get
+  isSpec: "True"
+  fullName: Minds.SDK.Minds.Get
+  nameWithType: Minds.Get
+- uid: Minds.SDK.Minds.List
+  name: List()
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_List
+  commentId: M:Minds.SDK.Minds.List
+  fullName: Minds.SDK.Minds.List()
+  nameWithType: Minds.List()
+- uid: Minds.SDK.Minds.List*
+  name: List
+  href: api/Minds.SDK.Minds.html#Minds_SDK_Minds_List_
+  commentId: Overload:Minds.SDK.Minds.List
+  isSpec: "True"
+  fullName: Minds.SDK.Minds.List
+  nameWithType: Minds.List
+- uid: Minds.SDK.ObjectNotFoundException
+  name: ObjectNotFoundException
+  href: api/Minds.SDK.ObjectNotFoundException.html
+  commentId: T:Minds.SDK.ObjectNotFoundException
+  fullName: Minds.SDK.ObjectNotFoundException
+  nameWithType: ObjectNotFoundException
+- uid: Minds.SDK.ObjectNotFoundException.#ctor
+  name: ObjectNotFoundException()
+  href: api/Minds.SDK.ObjectNotFoundException.html#Minds_SDK_ObjectNotFoundException__ctor
+  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor
+  name.vb: New()
+  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException()
+  fullName.vb: Minds.SDK.ObjectNotFoundException.New()
+  nameWithType: ObjectNotFoundException.ObjectNotFoundException()
+  nameWithType.vb: ObjectNotFoundException.New()
+- uid: Minds.SDK.ObjectNotFoundException.#ctor(System.String)
+  name: ObjectNotFoundException(string)
+  href: api/Minds.SDK.ObjectNotFoundException.html#Minds_SDK_ObjectNotFoundException__ctor_System_String_
+  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException(string)
+  fullName.vb: Minds.SDK.ObjectNotFoundException.New(String)
+  nameWithType: ObjectNotFoundException.ObjectNotFoundException(string)
+  nameWithType.vb: ObjectNotFoundException.New(String)
+- uid: Minds.SDK.ObjectNotFoundException.#ctor(System.String,System.Exception)
+  name: ObjectNotFoundException(string, Exception)
+  href: api/Minds.SDK.ObjectNotFoundException.html#Minds_SDK_ObjectNotFoundException__ctor_System_String_System_Exception_
+  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException(string, System.Exception)
+  fullName.vb: Minds.SDK.ObjectNotFoundException.New(String, System.Exception)
+  nameWithType: ObjectNotFoundException.ObjectNotFoundException(string, Exception)
+  nameWithType.vb: ObjectNotFoundException.New(String, Exception)
+- uid: Minds.SDK.ObjectNotFoundException.#ctor*
+  name: ObjectNotFoundException
+  href: api/Minds.SDK.ObjectNotFoundException.html#Minds_SDK_ObjectNotFoundException__ctor_
+  commentId: Overload:Minds.SDK.ObjectNotFoundException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException
+  fullName.vb: Minds.SDK.ObjectNotFoundException.New
+  nameWithType: ObjectNotFoundException.ObjectNotFoundException
+  nameWithType.vb: ObjectNotFoundException.New
+- uid: Minds.SDK.ObjectNotSupportedException
+  name: ObjectNotSupportedException
+  href: api/Minds.SDK.ObjectNotSupportedException.html
+  commentId: T:Minds.SDK.ObjectNotSupportedException
+  fullName: Minds.SDK.ObjectNotSupportedException
+  nameWithType: ObjectNotSupportedException
+- uid: Minds.SDK.ObjectNotSupportedException.#ctor
+  name: ObjectNotSupportedException()
+  href: api/Minds.SDK.ObjectNotSupportedException.html#Minds_SDK_ObjectNotSupportedException__ctor
+  commentId: M:Minds.SDK.ObjectNotSupportedException.#ctor
+  name.vb: New()
+  fullName: Minds.SDK.ObjectNotSupportedException.ObjectNotSupportedException()
+  fullName.vb: Minds.SDK.ObjectNotSupportedException.New()
+  nameWithType: ObjectNotSupportedException.ObjectNotSupportedException()
+  nameWithType.vb: ObjectNotSupportedException.New()
+- uid: Minds.SDK.ObjectNotSupportedException.#ctor(System.String)
+  name: ObjectNotSupportedException(string)
+  href: api/Minds.SDK.ObjectNotSupportedException.html#Minds_SDK_ObjectNotSupportedException__ctor_System_String_
+  commentId: M:Minds.SDK.ObjectNotSupportedException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Minds.SDK.ObjectNotSupportedException.ObjectNotSupportedException(string)
+  fullName.vb: Minds.SDK.ObjectNotSupportedException.New(String)
+  nameWithType: ObjectNotSupportedException.ObjectNotSupportedException(string)
+  nameWithType.vb: ObjectNotSupportedException.New(String)
+- uid: Minds.SDK.ObjectNotSupportedException.#ctor(System.String,System.Exception)
+  name: ObjectNotSupportedException(string, Exception)
+  href: api/Minds.SDK.ObjectNotSupportedException.html#Minds_SDK_ObjectNotSupportedException__ctor_System_String_System_Exception_
+  commentId: M:Minds.SDK.ObjectNotSupportedException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Minds.SDK.ObjectNotSupportedException.ObjectNotSupportedException(string, System.Exception)
+  fullName.vb: Minds.SDK.ObjectNotSupportedException.New(String, System.Exception)
+  nameWithType: ObjectNotSupportedException.ObjectNotSupportedException(string, Exception)
+  nameWithType.vb: ObjectNotSupportedException.New(String, Exception)
+- uid: Minds.SDK.ObjectNotSupportedException.#ctor*
+  name: ObjectNotSupportedException
+  href: api/Minds.SDK.ObjectNotSupportedException.html#Minds_SDK_ObjectNotSupportedException__ctor_
+  commentId: Overload:Minds.SDK.ObjectNotSupportedException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.ObjectNotSupportedException.ObjectNotSupportedException
+  fullName.vb: Minds.SDK.ObjectNotSupportedException.New
+  nameWithType: ObjectNotSupportedException.ObjectNotSupportedException
+  nameWithType.vb: ObjectNotSupportedException.New
+- uid: Minds.SDK.RestAPI
+  name: RestAPI
+  href: api/Minds.SDK.RestAPI.html
+  commentId: T:Minds.SDK.RestAPI
+  fullName: Minds.SDK.RestAPI
+  nameWithType: RestAPI
+- uid: Minds.SDK.RestAPI.#ctor(System.String,System.String)
+  name: RestAPI(string, string)
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI__ctor_System_String_System_String_
+  commentId: M:Minds.SDK.RestAPI.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: Minds.SDK.RestAPI.RestAPI(string, string)
+  fullName.vb: Minds.SDK.RestAPI.New(String, String)
+  nameWithType: RestAPI.RestAPI(string, string)
+  nameWithType.vb: RestAPI.New(String, String)
+- uid: Minds.SDK.RestAPI.#ctor*
+  name: RestAPI
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI__ctor_
+  commentId: Overload:Minds.SDK.RestAPI.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.RestAPI.RestAPI
+  fullName.vb: Minds.SDK.RestAPI.New
+  nameWithType: RestAPI.RestAPI
+  nameWithType.vb: RestAPI.New
+- uid: Minds.SDK.RestAPI.Delete(System.String)
+  name: Delete(string)
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Delete_System_String_
+  commentId: M:Minds.SDK.RestAPI.Delete(System.String)
+  name.vb: Delete(String)
+  fullName: Minds.SDK.RestAPI.Delete(string)
+  fullName.vb: Minds.SDK.RestAPI.Delete(String)
+  nameWithType: RestAPI.Delete(string)
+  nameWithType.vb: RestAPI.Delete(String)
+- uid: Minds.SDK.RestAPI.Delete*
+  name: Delete
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Delete_
+  commentId: Overload:Minds.SDK.RestAPI.Delete
+  isSpec: "True"
+  fullName: Minds.SDK.RestAPI.Delete
+  nameWithType: RestAPI.Delete
+- uid: Minds.SDK.RestAPI.Get*
+  name: Get
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Get_
+  commentId: Overload:Minds.SDK.RestAPI.Get
+  isSpec: "True"
+  fullName: Minds.SDK.RestAPI.Get
+  nameWithType: RestAPI.Get
+- uid: Minds.SDK.RestAPI.Get``1(System.String)
+  name: Get<T>(string)
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Get__1_System_String_
+  commentId: M:Minds.SDK.RestAPI.Get``1(System.String)
+  name.vb: Get(Of T)(String)
+  fullName: Minds.SDK.RestAPI.Get<T>(string)
+  fullName.vb: Minds.SDK.RestAPI.Get(Of T)(String)
+  nameWithType: RestAPI.Get<T>(string)
+  nameWithType.vb: RestAPI.Get(Of T)(String)
+- uid: Minds.SDK.RestAPI.Patch(System.String,System.Object)
+  name: Patch(string, object)
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Patch_System_String_System_Object_
+  commentId: M:Minds.SDK.RestAPI.Patch(System.String,System.Object)
+  name.vb: Patch(String, Object)
+  fullName: Minds.SDK.RestAPI.Patch(string, object)
+  fullName.vb: Minds.SDK.RestAPI.Patch(String, Object)
+  nameWithType: RestAPI.Patch(string, object)
+  nameWithType.vb: RestAPI.Patch(String, Object)
+- uid: Minds.SDK.RestAPI.Patch*
+  name: Patch
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Patch_
+  commentId: Overload:Minds.SDK.RestAPI.Patch
+  isSpec: "True"
+  fullName: Minds.SDK.RestAPI.Patch
+  nameWithType: RestAPI.Patch
+- uid: Minds.SDK.RestAPI.Post(System.String,System.Object)
+  name: Post(string, object)
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Post_System_String_System_Object_
+  commentId: M:Minds.SDK.RestAPI.Post(System.String,System.Object)
+  name.vb: Post(String, Object)
+  fullName: Minds.SDK.RestAPI.Post(string, object)
+  fullName.vb: Minds.SDK.RestAPI.Post(String, Object)
+  nameWithType: RestAPI.Post(string, object)
+  nameWithType.vb: RestAPI.Post(String, Object)
+- uid: Minds.SDK.RestAPI.Post*
+  name: Post
+  href: api/Minds.SDK.RestAPI.html#Minds_SDK_RestAPI_Post_
+  commentId: Overload:Minds.SDK.RestAPI.Post
+  isSpec: "True"
+  fullName: Minds.SDK.RestAPI.Post
+  nameWithType: RestAPI.Post
+- uid: Minds.SDK.UnauthorizedException
+  name: UnauthorizedException
+  href: api/Minds.SDK.UnauthorizedException.html
+  commentId: T:Minds.SDK.UnauthorizedException
+  fullName: Minds.SDK.UnauthorizedException
+  nameWithType: UnauthorizedException
+- uid: Minds.SDK.UnauthorizedException.#ctor
+  name: UnauthorizedException()
+  href: api/Minds.SDK.UnauthorizedException.html#Minds_SDK_UnauthorizedException__ctor
+  commentId: M:Minds.SDK.UnauthorizedException.#ctor
+  name.vb: New()
+  fullName: Minds.SDK.UnauthorizedException.UnauthorizedException()
+  fullName.vb: Minds.SDK.UnauthorizedException.New()
+  nameWithType: UnauthorizedException.UnauthorizedException()
+  nameWithType.vb: UnauthorizedException.New()
+- uid: Minds.SDK.UnauthorizedException.#ctor(System.String)
+  name: UnauthorizedException(string)
+  href: api/Minds.SDK.UnauthorizedException.html#Minds_SDK_UnauthorizedException__ctor_System_String_
+  commentId: M:Minds.SDK.UnauthorizedException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Minds.SDK.UnauthorizedException.UnauthorizedException(string)
+  fullName.vb: Minds.SDK.UnauthorizedException.New(String)
+  nameWithType: UnauthorizedException.UnauthorizedException(string)
+  nameWithType.vb: UnauthorizedException.New(String)
+- uid: Minds.SDK.UnauthorizedException.#ctor(System.String,System.Exception)
+  name: UnauthorizedException(string, Exception)
+  href: api/Minds.SDK.UnauthorizedException.html#Minds_SDK_UnauthorizedException__ctor_System_String_System_Exception_
+  commentId: M:Minds.SDK.UnauthorizedException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Minds.SDK.UnauthorizedException.UnauthorizedException(string, System.Exception)
+  fullName.vb: Minds.SDK.UnauthorizedException.New(String, System.Exception)
+  nameWithType: UnauthorizedException.UnauthorizedException(string, Exception)
+  nameWithType.vb: UnauthorizedException.New(String, Exception)
+- uid: Minds.SDK.UnauthorizedException.#ctor*
+  name: UnauthorizedException
+  href: api/Minds.SDK.UnauthorizedException.html#Minds_SDK_UnauthorizedException__ctor_
+  commentId: Overload:Minds.SDK.UnauthorizedException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.UnauthorizedException.UnauthorizedException
+  fullName.vb: Minds.SDK.UnauthorizedException.New
+  nameWithType: UnauthorizedException.UnauthorizedException
+  nameWithType.vb: UnauthorizedException.New
+- uid: Minds.SDK.UnknownErrorException
+  name: UnknownErrorException
+  href: api/Minds.SDK.UnknownErrorException.html
+  commentId: T:Minds.SDK.UnknownErrorException
+  fullName: Minds.SDK.UnknownErrorException
+  nameWithType: UnknownErrorException
+- uid: Minds.SDK.UnknownErrorException.#ctor
+  name: UnknownErrorException()
+  href: api/Minds.SDK.UnknownErrorException.html#Minds_SDK_UnknownErrorException__ctor
+  commentId: M:Minds.SDK.UnknownErrorException.#ctor
+  name.vb: New()
+  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException()
+  fullName.vb: Minds.SDK.UnknownErrorException.New()
+  nameWithType: UnknownErrorException.UnknownErrorException()
+  nameWithType.vb: UnknownErrorException.New()
+- uid: Minds.SDK.UnknownErrorException.#ctor(System.String)
+  name: UnknownErrorException(string)
+  href: api/Minds.SDK.UnknownErrorException.html#Minds_SDK_UnknownErrorException__ctor_System_String_
+  commentId: M:Minds.SDK.UnknownErrorException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException(string)
+  fullName.vb: Minds.SDK.UnknownErrorException.New(String)
+  nameWithType: UnknownErrorException.UnknownErrorException(string)
+  nameWithType.vb: UnknownErrorException.New(String)
+- uid: Minds.SDK.UnknownErrorException.#ctor(System.String,System.Exception)
+  name: UnknownErrorException(string, Exception)
+  href: api/Minds.SDK.UnknownErrorException.html#Minds_SDK_UnknownErrorException__ctor_System_String_System_Exception_
+  commentId: M:Minds.SDK.UnknownErrorException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException(string, System.Exception)
+  fullName.vb: Minds.SDK.UnknownErrorException.New(String, System.Exception)
+  nameWithType: UnknownErrorException.UnknownErrorException(string, Exception)
+  nameWithType.vb: UnknownErrorException.New(String, Exception)
+- uid: Minds.SDK.UnknownErrorException.#ctor*
+  name: UnknownErrorException
+  href: api/Minds.SDK.UnknownErrorException.html#Minds_SDK_UnknownErrorException__ctor_
+  commentId: Overload:Minds.SDK.UnknownErrorException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException
+  fullName.vb: Minds.SDK.UnknownErrorException.New
+  nameWithType: UnknownErrorException.UnknownErrorException
+  nameWithType.vb: UnknownErrorException.New

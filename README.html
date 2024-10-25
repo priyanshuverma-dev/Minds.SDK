@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>&#129504; Minds SDK for C# &#129504; | Minds SDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="&#129504; Minds SDK for C# &#129504; | Minds SDK ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="Minds SDK">
+            Minds SDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 align="center">🧠 Minds SDK for C# 🧠</h1>
+
+<br>
+<p align="center">
+    <img alt="hero" width="450" src="https://raw.githubusercontent.com/priyanshuverma-dev/Minds.SDK/master/.github/hero.png" style="max-width: 100%;">
+</p>
+<br><br>
+<p align="center">
+<a href="https://www.nuget.org/packages/Minds.SDK">
+<img alt="nuget version" src="https://img.shields.io/nuget/v/Minds.SDK.svg">
+</a>
+    <a href="https://www.nuget.org/packages/Minds.SDK">
+<img alt="repo size" src="https://img.shields.io/github/repo-size/priyanshuverma-dev/Minds.SDK?color=green">
+        </a>    
+    <a href="https://github.com/priyanshuverma-dev/Minds.SDK/releases">
+<img alt="repo release" src="https://img.shields.io/github/v/release/priyanshuverma-dev/Minds.SDK">   
+    </a> 
+    <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/LICENSE">
+<img alt="license" src="https://img.shields.io/badge/License-MIT-blue.svg"> 
+    </a> 
+</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>A comprehensive <strong>C# SDK</strong> for interacting with the <a href="https://mdb.ai"><strong>Minds AI API</strong></a>. Effortlessly integrate AI functionalities into your .NET applications.</p>
+</div>
+<h2 id="-table-of-contents">📚 Table of Contents</h2>
+<ul>
+<li><a href="#-features">🚀 Features</a></li>
+<li><a href="#-installation">🎪 Installation</a></li>
+<li><a href="#-getting-started">🏁 Getting Started</a></li>
+<li><a href="#-api-reference">📘 API Reference</a>
+<ul>
+<li><a href="#client">Client</a></li>
+<li><a href="#datasources">Datasources</a></li>
+<li><a href="#minds">Minds</a></li>
+<li><a href="#exceptions">Exceptions</a></li>
+</ul>
+</li>
+<li><a href="#-usage-examples">🌟 Usage Examples</a></li>
+<li><a href="#-license">📄 License</a></li>
+</ul>
+<hr>
+<h2 id="-features">🚀 Features</h2>
+<ul>
+<li><p><strong>🔐 Secure API Authentication</strong><br>
+Ensure safe and encrypted connections with the Minds API, mastertaining data security and privacy.</p>
+</li>
+<li><p><strong>📊 Easy Data Source Management</strong><br>
+Simplified management of your data sources. Easily configure and manage data connections.</p>
+</li>
+<li><p><strong>🧠 AI Model Customization</strong><br>
+Create and tailor AI models to suit your application's needs with ease.</p>
+</li>
+<li><p><strong>📡 Real-Time Interactions</strong><br>
+Support for real-time streaming and interaction with AI models, making your app dynamic and responsive.</p>
+</li>
+<li><p><strong>📦 Modular and Extensible Architecture</strong><br>
+Flexible architecture that lets you extend and customize as your project evolves.</p>
+</li>
+</ul>
+<h2 id="-installation">🎪 Installation</h2>
+<blockquote>
+<p>Install <strong><a href="https://www.nuget.org/packages/Minds.SDK"><code>Minds.SDK</code></a></strong> through NuGet.</p>
+</blockquote>
+<h6 id="terminal">terminal</h6>
+<pre><code class="lang-bash">dotnet add package Minds.SDK
+</code></pre>
+<h2 id="-getting-started">🏁 Getting Started</h2>
+<p>Import the SDK and initialize a client:</p>
+<pre><code class="lang-csharp">using Minds.SDK;
+
+var client = new MindsClient(&quot;YOUR_API_KEY&quot;);
+// Now you're ready to use the SDK!
+</code></pre>
+<blockquote>
+<p>Check out the <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/example/master.cs"><code>example</code></a> for a demo!</p>
+</blockquote>
+<hr>
+<h2 id="-api-reference">📘 API Reference</h2>
+<h3 id="client"><a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Client.cs">Client</a></h3>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>RestAPI Api</code></td>
+<td>Instance for making API calls</td>
+</tr>
+<tr>
+<td><code>Datasources Datasources</code></td>
+<td>Manages data sources</td>
+</tr>
+<tr>
+<td><code>Minds Minds</code></td>
+<td>Manages Minds (AI models)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="datasources"><a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Datasources.cs">Datasources</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>List()</code></td>
+<td>List all datasources</td>
+</tr>
+<tr>
+<td><code>Get(string name)</code></td>
+<td>Get a specific datasource</td>
+</tr>
+<tr>
+<td><code>Create(DatabaseConfig config)</code></td>
+<td>Create a new datasource</td>
+</tr>
+<tr>
+<td><code>Drop(string name)</code></td>
+<td>Delete a datasource</td>
+</tr>
+</tbody>
+</table>
+<h3 id="minds"><a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/src/Minds.cs">Minds</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>List()</code></td>
+<td>List all Minds (AI models)</td>
+</tr>
+<tr>
+<td><code>Get(string name)</code></td>
+<td>Get a specific Mind</td>
+</tr>
+<tr>
+<td><code>Create(MindConfig config)</code></td>
+<td>Create a new Mind</td>
+</tr>
+<tr>
+<td><code>Drop(string name)</code></td>
+<td>Delete a Mind</td>
+</tr>
+</tbody>
+</table>
+<h3 id="exceptions">Exceptions</h3>
+<table>
+<thead>
+<tr>
+<th>Exception</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ObjectNotFoundException</code></td>
+<td>Object not found</td>
+</tr>
+<tr>
+<td><code>UnauthorizedAccessException</code></td>
+<td>Unauthorized access</td>
+</tr>
+<tr>
+<td><code>UnknownErrorException</code></td>
+<td>Unspecified error</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-usage-examples">🌟 Usage Examples</h2>
+<h3 id="-managing-datasources">💿 Managing Datasources</h3>
+<blockquote>
+<h4 id="list-datasources">List Datasources</h4>
+</blockquote>
+<pre><code class="lang-csharp">var datasources = await client.Datasources.List();
+foreach (var ds in datasources)
+{
+    Console.WriteLine($&quot;Datasource: {ds.Name}&quot;);
+}
+</code></pre>
+<blockquote>
+<h4 id="create-a-datasource">Create a Datasource</h4>
+</blockquote>
+<pre><code class="lang-csharp">var newDatasource = await client.Datasources.Create(new DatabaseConfig
+{
+    Name = &quot;my_postgres_db&quot;,
+    Engine = &quot;postgres&quot;,
+    ConnectionData = new Dictionary&lt;string, object&gt;
+    {
+        { &quot;host&quot;, &quot;localhost&quot; },
+        { &quot;port&quot;, 5432 },
+        { &quot;user&quot;, &quot;username&quot; },
+        { &quot;password&quot;, &quot;password&quot; },
+        { &quot;database&quot;, &quot;mydb&quot; }
+    }
+});
+Console.WriteLine($&quot;Created datasource: {newDatasource.Name}&quot;);
+</code></pre>
+<blockquote>
+<h4 id="delete-a-datasource">Delete a Datasource</h4>
+</blockquote>
+<pre><code class="lang-csharp">await client.Datasources.Drop(&quot;my_postgres_db&quot;);
+Console.WriteLine(&quot;Datasource deleted successfully&quot;);
+</code></pre>
+<h3 id="-managing-minds">🧠 Managing Minds</h3>
+<blockquote>
+<h4 id="create-a-mind">Create a Mind</h4>
+</blockquote>
+<pre><code class="lang-csharp">var newMind = await client.Minds.Create(new MindConfig
+{
+    Name = &quot;my_predictor&quot;,
+    ModelName = &quot;gpt-4o&quot;,
+    Provider = &quot;openai&quot;,
+    Datasources = new List&lt;string&gt; { &quot;my_postgres_db&quot; }
+});
+Console.WriteLine($&quot;Created Mind: {newMind.Name}&quot;);
+</code></pre>
+<hr>
+<h2 id="-license">📄 License</h2>
+<p>This project is licensed under the <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/LICENSE"><strong>License</strong></a>.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

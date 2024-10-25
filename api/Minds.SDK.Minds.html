@@ -1,0 +1,438 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Minds | Minds SDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Minds | Minds SDK ">
+      
+      <meta name="description" content="The  class provides methods to manage and interact with MindsDB&#39;s mind entities. It allows users to list, create, retrieve, and delete minds and check or create datasources.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/priyanshuverma-dev/Minds.SDK/new/master/apiSpec/new?filename=Minds_SDK_Minds.md&amp;value=---%0Auid%3A%20Minds.SDK.Minds%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Minds SDK">
+            Minds SDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Minds.SDK.Minds">
+
+
+
+  <h1 id="Minds_SDK_Minds" data-uid="Minds.SDK.Minds" class="text-break">
+Class Minds  <a class="header-action link-secondary" title="View source" href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Minds.html">Minds</a>.<a class="xref" href="Minds.SDK.html">SDK</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Minds.SDK.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <a class="xref" href="Minds.SDK.Minds.html">Minds</a> class provides methods to manage and interact with MindsDB's mind entities.
+It allows users to list, create, retrieve, and delete minds and check or create datasources.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Minds</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Minds</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Minds_SDK_Minds__ctor_" data-uid="Minds.SDK.Minds.#ctor*"></a>
+
+  <h3 id="Minds_SDK_Minds__ctor_Minds_SDK_Client_" data-uid="Minds.SDK.Minds.#ctor(Minds.SDK.Client)">
+  Minds(Client)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Minds.SDK.Minds.html">Minds</a> class with the provided client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Minds(Client client)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>client</code> <a class="xref" href="Minds.SDK.Client.html">Client</a></dt>
+    <dd><p>The client instance used to make API requests.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Minds_SDK_Minds_CheckDatasource_" data-uid="Minds.SDK.Minds.CheckDatasource*"></a>
+
+  <h3 id="Minds_SDK_Minds_CheckDatasource_System_Object_" data-uid="Minds.SDK.Minds.CheckDatasource(System.Object)">
+  CheckDatasource(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies and retrieves the name of a datasource.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CheckDatasource(object ds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The datasource object, which can be a <a class="xref" href="Minds.SDK.Datasource.html">Datasource</a>, a <a class="xref" href="DatabaseConfig.html">DatabaseConfig</a>, or a string.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the datasource as a string.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown if the datasource type is unknown.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Minds_SDK_Minds_Create_" data-uid="Minds.SDK.Minds.Create*"></a>
+
+  <h3 id="Minds_SDK_Minds_Create_System_String_System_String_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_Dictionary_System_String_System_Object__System_Boolean_" data-uid="Minds.SDK.Minds.Create(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)">
+  Create(string, string, string, string, List&lt;string&gt;, Dictionary&lt;string, object&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new mind with the given configuration options.
+Optionally, it can replace an existing mind with the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Mind&gt; Create(string name, string modelName = null, string provider = null, string promptTemplate = null, List&lt;string&gt; datasources = null, Dictionary&lt;string, object&gt; parameters = null, bool replace = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the mind to create.</p>
+</dd>
+    <dt><code>modelName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the model to associate with the mind (optional).</p>
+</dd>
+    <dt><code>provider</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The provider for the model (optional).</p>
+</dd>
+    <dt><code>promptTemplate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A prompt template for the mind (optional).</p>
+</dd>
+    <dt><code>datasources</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>A list of datasources associated with the mind (optional).</p>
+</dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>A dictionary of parameters to configure the mind (optional).</p>
+</dd>
+    <dt><code>replace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If set to true, will replace an existing mind with the same name (optional).</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Minds.SDK.Mind.html">Mind</a>&gt;</dt>
+    <dd><p>A <a class="xref" href="Minds.SDK.Mind.html">Mind</a> object representing the newly created mind.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Minds.SDK.ObjectNotFoundException.html">ObjectNotFoundException</a></dt>
+    <dd><p>Thrown if the mind to replace doesn't exist.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Minds_SDK_Minds_Drop_" data-uid="Minds.SDK.Minds.Drop*"></a>
+
+  <h3 id="Minds_SDK_Minds_Drop_System_String_" data-uid="Minds.SDK.Minds.Drop(System.String)">
+  Drop(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes a mind by name from the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task Drop(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the mind to delete.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Minds_SDK_Minds_Get_" data-uid="Minds.SDK.Minds.Get*"></a>
+
+  <h3 id="Minds_SDK_Minds_Get_System_String_" data-uid="Minds.SDK.Minds.Get(System.String)">
+  Get(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a specific mind by name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Mind&gt; Get(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the mind to retrieve.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Minds.SDK.Mind.html">Mind</a>&gt;</dt>
+    <dd><p>A <a class="xref" href="Minds.SDK.Mind.html">Mind</a> object representing the retrieved mind.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Minds_SDK_Minds_List_" data-uid="Minds.SDK.Minds.List*"></a>
+
+  <h3 id="Minds_SDK_Minds_List" data-uid="Minds.SDK.Minds.List">
+  List()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a list of all minds in the current project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;List&lt;Mind&gt;&gt; List()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Minds.SDK.Mind.html">Mind</a>&gt;&gt;</dt>
+    <dd><p>A list of <a class="xref" href="Minds.SDK.Mind.html">Mind</a> objects.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/Minds.SDK/Minds.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
