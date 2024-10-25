@@ -23,7 +23,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: RestAPI
-    path: RestAPI.cs
+    path: Minds.SDK/RestAPI.cs
     startLine: 11
   assemblies:
   - Minds.SDK
@@ -60,7 +60,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: RestAPI.cs
+    path: Minds.SDK/RestAPI.cs
     startLine: 23
   assemblies:
   - Minds.SDK
@@ -101,7 +101,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: Get
-    path: RestAPI.cs
+    path: Minds.SDK/RestAPI.cs
     startLine: 73
   assemblies:
   - Minds.SDK
@@ -142,7 +142,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: Delete
-    path: RestAPI.cs
+    path: Minds.SDK/RestAPI.cs
     startLine: 86
   assemblies:
   - Minds.SDK
@@ -180,7 +180,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: Post
-    path: RestAPI.cs
+    path: Minds.SDK/RestAPI.cs
     startLine: 99
   assemblies:
   - Minds.SDK
@@ -221,7 +221,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: Patch
-    path: RestAPI.cs
+    path: Minds.SDK/RestAPI.cs
     startLine: 114
   assemblies:
   - Minds.SDK

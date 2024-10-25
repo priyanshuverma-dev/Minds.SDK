@@ -24,7 +24,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: Minds
-    path: Minds.cs
+    path: Minds.SDK/Minds.cs
     startLine: 11
   assemblies:
   - Minds.SDK
@@ -64,7 +64,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Minds.cs
+    path: Minds.SDK/Minds.cs
     startLine: 20
   assemblies:
   - Minds.SDK
@@ -99,7 +99,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: List
-    path: Minds.cs
+    path: Minds.SDK/Minds.cs
     startLine: 29
   assemblies:
   - Minds.SDK
@@ -130,7 +130,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: Get
-    path: Minds.cs
+    path: Minds.SDK/Minds.cs
     startLine: 43
   assemblies:
   - Minds.SDK
@@ -168,7 +168,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: CheckDatasource
-    path: Minds.cs
+    path: Minds.SDK/Minds.cs
     startLine: 55
   assemblies:
   - Minds.SDK
@@ -210,7 +210,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: Create
-    path: Minds.cs
+    path: Minds.SDK/Minds.cs
     startLine: 89
   assemblies:
   - Minds.SDK
@@ -273,7 +273,7 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: Drop
-    path: Minds.cs
+    path: Minds.SDK/Minds.cs
     startLine: 139
   assemblies:
   - Minds.SDK

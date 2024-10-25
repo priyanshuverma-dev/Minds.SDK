@@ -1,36 +1,36 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Minds.SDK.UnknownErrorException
-  commentId: T:Minds.SDK.UnknownErrorException
-  id: UnknownErrorException
+- uid: Minds.SDK.UnauthorizedException
+  commentId: T:Minds.SDK.UnauthorizedException
+  id: UnauthorizedException
   parent: Minds.SDK
   children:
-  - Minds.SDK.UnknownErrorException.#ctor
-  - Minds.SDK.UnknownErrorException.#ctor(System.String)
-  - Minds.SDK.UnknownErrorException.#ctor(System.String,System.Exception)
+  - Minds.SDK.UnauthorizedException.#ctor
+  - Minds.SDK.UnauthorizedException.#ctor(System.String)
+  - Minds.SDK.UnauthorizedException.#ctor(System.String,System.Exception)
   langs:
   - csharp
   - vb
-  name: UnknownErrorException
-  nameWithType: UnknownErrorException
-  fullName: Minds.SDK.UnknownErrorException
+  name: UnauthorizedException
+  nameWithType: UnauthorizedException
+  fullName: Minds.SDK.UnauthorizedException
   type: Class
   source:
     remote:
       path: Minds.SDK/Exceptions.cs
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
-    id: UnknownErrorException
-    path: Exceptions.cs
-    startLine: 103
+    id: UnauthorizedException
+    path: Minds.SDK/Exceptions.cs
+    startLine: 79
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Represents an exception that is thrown when an unknown error occurs during an API request.
+  summary: Represents an exception that is thrown when a request is unauthorized.
   example: []
   syntax:
-    content: 'public class UnknownErrorException : Exception, ISerializable, _Exception'
-    content.vb: Public Class UnknownErrorException Inherits Exception Implements ISerializable, _Exception
+    content: 'public class UnauthorizedException : Exception, ISerializable, _Exception'
+    content.vb: Public Class UnauthorizedException Inherits Exception Implements ISerializable, _Exception
   inheritance:
   - System.Object
   - System.Exception
@@ -56,16 +56,16 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   - System.Object.MemberwiseClone
-- uid: Minds.SDK.UnknownErrorException.#ctor
-  commentId: M:Minds.SDK.UnknownErrorException.#ctor
+- uid: Minds.SDK.UnauthorizedException.#ctor
+  commentId: M:Minds.SDK.UnauthorizedException.#ctor
   id: '#ctor'
-  parent: Minds.SDK.UnknownErrorException
+  parent: Minds.SDK.UnauthorizedException
   langs:
   - csharp
   - vb
-  name: UnknownErrorException()
-  nameWithType: UnknownErrorException.UnknownErrorException()
-  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException()
+  name: UnauthorizedException()
+  nameWithType: UnauthorizedException.UnauthorizedException()
+  fullName: Minds.SDK.UnauthorizedException.UnauthorizedException()
   type: Constructor
   source:
     remote:
@@ -73,30 +73,30 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 108
+    path: Minds.SDK/Exceptions.cs
+    startLine: 84
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.UnknownErrorException" data-throw-if-not-resolved="false"></xref> class.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.UnauthorizedException" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
-    content: public UnknownErrorException()
+    content: public UnauthorizedException()
     content.vb: Public Sub New()
-  overload: Minds.SDK.UnknownErrorException.#ctor*
-  nameWithType.vb: UnknownErrorException.New()
-  fullName.vb: Minds.SDK.UnknownErrorException.New()
+  overload: Minds.SDK.UnauthorizedException.#ctor*
+  nameWithType.vb: UnauthorizedException.New()
+  fullName.vb: Minds.SDK.UnauthorizedException.New()
   name.vb: New()
-- uid: Minds.SDK.UnknownErrorException.#ctor(System.String)
-  commentId: M:Minds.SDK.UnknownErrorException.#ctor(System.String)
+- uid: Minds.SDK.UnauthorizedException.#ctor(System.String)
+  commentId: M:Minds.SDK.UnauthorizedException.#ctor(System.String)
   id: '#ctor(System.String)'
-  parent: Minds.SDK.UnknownErrorException
+  parent: Minds.SDK.UnauthorizedException
   langs:
   - csharp
   - vb
-  name: UnknownErrorException(string)
-  nameWithType: UnknownErrorException.UnknownErrorException(string)
-  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException(string)
+  name: UnauthorizedException(string)
+  nameWithType: UnauthorizedException.UnauthorizedException(string)
+  fullName: Minds.SDK.UnauthorizedException.UnauthorizedException(string)
   type: Constructor
   source:
     remote:
@@ -104,34 +104,34 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 114
+    path: Minds.SDK/Exceptions.cs
+    startLine: 90
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.UnknownErrorException" data-throw-if-not-resolved="false"></xref> class with a specified error message.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.UnauthorizedException" data-throw-if-not-resolved="false"></xref> class with a specified error message.
   example: []
   syntax:
-    content: public UnknownErrorException(string message)
+    content: public UnauthorizedException(string message)
     parameters:
     - id: message
       type: System.String
       description: The error message that explains the reason for the exception.
     content.vb: Public Sub New(message As String)
-  overload: Minds.SDK.UnknownErrorException.#ctor*
-  nameWithType.vb: UnknownErrorException.New(String)
-  fullName.vb: Minds.SDK.UnknownErrorException.New(String)
+  overload: Minds.SDK.UnauthorizedException.#ctor*
+  nameWithType.vb: UnauthorizedException.New(String)
+  fullName.vb: Minds.SDK.UnauthorizedException.New(String)
   name.vb: New(String)
-- uid: Minds.SDK.UnknownErrorException.#ctor(System.String,System.Exception)
-  commentId: M:Minds.SDK.UnknownErrorException.#ctor(System.String,System.Exception)
+- uid: Minds.SDK.UnauthorizedException.#ctor(System.String,System.Exception)
+  commentId: M:Minds.SDK.UnauthorizedException.#ctor(System.String,System.Exception)
   id: '#ctor(System.String,System.Exception)'
-  parent: Minds.SDK.UnknownErrorException
+  parent: Minds.SDK.UnauthorizedException
   langs:
   - csharp
   - vb
-  name: UnknownErrorException(string, Exception)
-  nameWithType: UnknownErrorException.UnknownErrorException(string, Exception)
-  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException(string, System.Exception)
+  name: UnauthorizedException(string, Exception)
+  nameWithType: UnauthorizedException.UnauthorizedException(string, Exception)
+  fullName: Minds.SDK.UnauthorizedException.UnauthorizedException(string, System.Exception)
   type: Constructor
   source:
     remote:
@@ -139,15 +139,15 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 121
+    path: Minds.SDK/Exceptions.cs
+    startLine: 97
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.UnknownErrorException" data-throw-if-not-resolved="false"></xref> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.UnauthorizedException" data-throw-if-not-resolved="false"></xref> class with a specified error message and a reference to the inner exception that is the cause of this exception.
   example: []
   syntax:
-    content: public UnknownErrorException(string message, Exception inner)
+    content: public UnauthorizedException(string message, Exception inner)
     parameters:
     - id: message
       type: System.String
@@ -156,9 +156,9 @@ items:
       type: System.Exception
       description: The exception that is the cause of the current exception.
     content.vb: Public Sub New(message As String, inner As Exception)
-  overload: Minds.SDK.UnknownErrorException.#ctor*
-  nameWithType.vb: UnknownErrorException.New(String, Exception)
-  fullName.vb: Minds.SDK.UnknownErrorException.New(String, System.Exception)
+  overload: Minds.SDK.UnauthorizedException.#ctor*
+  nameWithType.vb: UnauthorizedException.New(String, Exception)
+  fullName.vb: Minds.SDK.UnauthorizedException.New(String, System.Exception)
   name.vb: New(String, Exception)
 references:
 - uid: Minds.SDK
@@ -650,20 +650,20 @@ references:
     name: InteropServices
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
-- uid: Minds.SDK.UnknownErrorException
-  commentId: T:Minds.SDK.UnknownErrorException
-  href: Minds.SDK.UnknownErrorException.html
-  name: UnknownErrorException
-  nameWithType: UnknownErrorException
-  fullName: Minds.SDK.UnknownErrorException
-- uid: Minds.SDK.UnknownErrorException.#ctor*
-  commentId: Overload:Minds.SDK.UnknownErrorException.#ctor
-  href: Minds.SDK.UnknownErrorException.html#Minds_SDK_UnknownErrorException__ctor
-  name: UnknownErrorException
-  nameWithType: UnknownErrorException.UnknownErrorException
-  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException
-  nameWithType.vb: UnknownErrorException.New
-  fullName.vb: Minds.SDK.UnknownErrorException.New
+- uid: Minds.SDK.UnauthorizedException
+  commentId: T:Minds.SDK.UnauthorizedException
+  href: Minds.SDK.UnauthorizedException.html
+  name: UnauthorizedException
+  nameWithType: UnauthorizedException
+  fullName: Minds.SDK.UnauthorizedException
+- uid: Minds.SDK.UnauthorizedException.#ctor*
+  commentId: Overload:Minds.SDK.UnauthorizedException.#ctor
+  href: Minds.SDK.UnauthorizedException.html#Minds_SDK_UnauthorizedException__ctor
+  name: UnauthorizedException
+  nameWithType: UnauthorizedException.UnauthorizedException
+  fullName: Minds.SDK.UnauthorizedException.UnauthorizedException
+  nameWithType.vb: UnauthorizedException.New
+  fullName.vb: Minds.SDK.UnauthorizedException.New
   name.vb: New
 - uid: System.String
   commentId: T:System.String

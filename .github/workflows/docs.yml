@@ -27,7 +27,7 @@ jobs:
         run: dotnet nuget locals all --clear
 
       - name: Restore Dependencies
-        run: dotnet restore --verbosity detailed
+        run: dotnet restore
         timeout-minutes: 10
 
       # Install DocFX using dotnet tool
@@ -40,7 +40,7 @@ jobs:
 
       # Build the documentation using DocFX
       - name: Generate Documentation
-        run: cd Minds.SDK && docfx build
+        run: docfx build
         timeout-minutes: 10  # Adjust as necessary
 
       # Deploy the documentation to GitHub Pages
@@ -48,4 +48,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Minds.SDK/_site  # Specify the directory where DocFX outputs the static site
+          publish_dir: ./_site  # Specify the directory where DocFX outputs the static site

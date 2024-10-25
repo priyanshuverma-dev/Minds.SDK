@@ -2,20 +2,22 @@
 <package >
   <metadata>
     <id>Package</id>
-    <version>1.0.0</version>
-    <authors>Priyanshu</authors>
+    <version>0.0.1</version>
+    <title>Minds SDK</title>
+    <authors>Priyanshu Verma</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="expression">MIT</license>
+    <license type="file">LICENSE.txt</license>
+    <readme>README.md</readme>
     <!-- <icon>icon.png</icon> -->
-    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>$copyright$</copyright>
-    <tags>Tag1 Tag2</tags>
-    <dependencies>
-      <group targetFramework=".NETStandard2.1">
-        <dependency id="SampleDependency" version="1.0.0" />
-      </group>
-    </dependencies>
+    <projectUrl>https://github.com/priyanshuverma-dev/Minds.SDK</projectUrl>
+     <repository type="git" url="https://github.com/priyanshuverma-dev/Minds.SDK.git" branch="master"/>
+    <description>A unofficial SDK for Minds DB in c#</description>
+    <releaseNotes>All the basic features that are provided by minds API.</releaseNotes>
+    <copyright>Copyright 2024</copyright>
+    <tags>MindsDB SDK</tags>
   </metadata>
+  <files>
+    <file src="README.md" target="." />
+    <file src="LICENSE.txt" target="." />
+  </files>
 </package>

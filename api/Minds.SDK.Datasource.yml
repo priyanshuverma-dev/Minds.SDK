@@ -1,43 +1,40 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Minds.SDK.Client
-  commentId: T:Minds.SDK.Client
-  id: Client
+- uid: Minds.SDK.Datasource
+  commentId: T:Minds.SDK.Datasource
+  id: Datasource
   parent: Minds.SDK
-  children:
-  - Minds.SDK.Client.#ctor(System.String,System.String)
-  - Minds.SDK.Client.Api
-  - Minds.SDK.Client.Datasources
-  - Minds.SDK.Client.Minds
+  children: []
   langs:
   - csharp
   - vb
-  name: Client
-  nameWithType: Client
-  fullName: Minds.SDK.Client
+  name: Datasource
+  nameWithType: Datasource
+  fullName: Minds.SDK.Datasource
   type: Class
   source:
     remote:
-      path: Minds.SDK/Client.cs
+      path: Minds.SDK/Datasources/Datasource.cs
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
-    id: Client
-    path: Client.cs
-    startLine: 6
+    id: Datasource
+    path: Minds.SDK/Datasources/Datasource.cs
+    startLine: 1
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: >-
-    The <xref href="Minds.SDK.Client" data-throw-if-not-resolved="false"></xref> class provides access to MindsDB API functionalities.
-
-    It manages the connection to the API, exposes interfaces for interacting with datasources and minds, and acts as a wrapper for the API calls.
-  example: []
   syntax:
-    content: public class Client
-    content.vb: Public Class Client
+    content: 'public class Datasource : DatabaseConfig'
+    content.vb: Public Class Datasource Inherits DatabaseConfig
   inheritance:
   - System.Object
+  - DatabaseConfig
   inheritedMembers:
+  - DatabaseConfig.Name
+  - DatabaseConfig.Engine
+  - DatabaseConfig.Description
+  - DatabaseConfig.ConnectionData
+  - DatabaseConfig.Tables
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -45,145 +42,7 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: Minds.SDK.Client.Api
-  commentId: P:Minds.SDK.Client.Api
-  id: Api
-  parent: Minds.SDK.Client
-  langs:
-  - csharp
-  - vb
-  name: Api
-  nameWithType: Client.Api
-  fullName: Minds.SDK.Client.Api
-  type: Property
-  source:
-    remote:
-      path: Minds.SDK/Client.cs
-      branch: master
-      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
-    id: Api
-    path: Client.cs
-    startLine: 11
-  assemblies:
-  - Minds.SDK
-  namespace: Minds.SDK
-  summary: Gets the <xref href="Minds.SDK.RestAPI" data-throw-if-not-resolved="false"></xref> instance that manages API calls to MindsDB.
-  example: []
-  syntax:
-    content: public RestAPI Api { get; }
-    parameters: []
-    return:
-      type: Minds.SDK.RestAPI
-    content.vb: Public ReadOnly Property Api As RestAPI
-  overload: Minds.SDK.Client.Api*
-- uid: Minds.SDK.Client.Datasources
-  commentId: P:Minds.SDK.Client.Datasources
-  id: Datasources
-  parent: Minds.SDK.Client
-  langs:
-  - csharp
-  - vb
-  name: Datasources
-  nameWithType: Client.Datasources
-  fullName: Minds.SDK.Client.Datasources
-  type: Property
-  source:
-    remote:
-      path: Minds.SDK/Client.cs
-      branch: master
-      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
-    id: Datasources
-    path: Client.cs
-    startLine: 16
-  assemblies:
-  - Minds.SDK
-  namespace: Minds.SDK
-  summary: Gets the <xref href="Minds.SDK.Client.Datasources" data-throw-if-not-resolved="false"></xref> manager that handles datasource-related operations.
-  example: []
-  syntax:
-    content: public Datasources Datasources { get; }
-    parameters: []
-    return:
-      type: Minds.SDK.Datasources
-    content.vb: Public ReadOnly Property Datasources As Datasources
-  overload: Minds.SDK.Client.Datasources*
-- uid: Minds.SDK.Client.Minds
-  commentId: P:Minds.SDK.Client.Minds
-  id: Minds
-  parent: Minds.SDK.Client
-  langs:
-  - csharp
-  - vb
-  name: Minds
-  nameWithType: Client.Minds
-  fullName: Minds.SDK.Client.Minds
-  type: Property
-  source:
-    remote:
-      path: Minds.SDK/Client.cs
-      branch: master
-      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
-    id: Minds
-    path: Client.cs
-    startLine: 21
-  assemblies:
-  - Minds.SDK
-  namespace: Minds.SDK
-  summary: Gets the <xref href="Minds.SDK.Client.Minds" data-throw-if-not-resolved="false"></xref> manager that handles mind-related operations.
-  example: []
-  syntax:
-    content: public Minds Minds { get; }
-    parameters: []
-    return:
-      type: Minds.SDK.Minds
-    content.vb: Public ReadOnly Property Minds As Minds
-  overload: Minds.SDK.Client.Minds*
-- uid: Minds.SDK.Client.#ctor(System.String,System.String)
-  commentId: M:Minds.SDK.Client.#ctor(System.String,System.String)
-  id: '#ctor(System.String,System.String)'
-  parent: Minds.SDK.Client
-  langs:
-  - csharp
-  - vb
-  name: Client(string, string)
-  nameWithType: Client.Client(string, string)
-  fullName: Minds.SDK.Client.Client(string, string)
-  type: Constructor
-  source:
-    remote:
-      path: Minds.SDK/Client.cs
-      branch: master
-      repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
-    id: .ctor
-    path: Client.cs
-    startLine: 28
-  assemblies:
-  - Minds.SDK
-  namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.Client" data-throw-if-not-resolved="false"></xref> class, which provides access to the MindsDB API, datasources, and minds.
-  example: []
-  syntax:
-    content: public Client(string apiKey, string baseUrl = null)
-    parameters:
-    - id: apiKey
-      type: System.String
-      description: The API key required for authentication with the MindsDB API.
-    - id: baseUrl
-      type: System.String
-      description: The base URL of the MindsDB API (optional).
-    content.vb: Public Sub New(apiKey As String, baseUrl As String = Nothing)
-  overload: Minds.SDK.Client.#ctor*
-  nameWithType.vb: Client.New(String, String)
-  fullName.vb: Minds.SDK.Client.New(String, String)
-  name.vb: New(String, String)
 references:
-- uid: Minds.SDK.Client
-  commentId: T:Minds.SDK.Client
-  parent: Minds.SDK
-  href: Minds.SDK.Client.html
-  name: Client
-  nameWithType: Client
-  fullName: Minds.SDK.Client
 - uid: Minds.SDK
   commentId: N:Minds.SDK
   href: Minds.html
@@ -217,6 +76,47 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: DatabaseConfig
+  commentId: T:DatabaseConfig
+  href: DatabaseConfig.html
+  name: DatabaseConfig
+  nameWithType: DatabaseConfig
+  fullName: DatabaseConfig
+- uid: DatabaseConfig.Name
+  commentId: P:DatabaseConfig.Name
+  parent: DatabaseConfig
+  href: DatabaseConfig.html#DatabaseConfig_Name
+  name: Name
+  nameWithType: DatabaseConfig.Name
+  fullName: DatabaseConfig.Name
+- uid: DatabaseConfig.Engine
+  commentId: P:DatabaseConfig.Engine
+  parent: DatabaseConfig
+  href: DatabaseConfig.html#DatabaseConfig_Engine
+  name: Engine
+  nameWithType: DatabaseConfig.Engine
+  fullName: DatabaseConfig.Engine
+- uid: DatabaseConfig.Description
+  commentId: P:DatabaseConfig.Description
+  parent: DatabaseConfig
+  href: DatabaseConfig.html#DatabaseConfig_Description
+  name: Description
+  nameWithType: DatabaseConfig.Description
+  fullName: DatabaseConfig.Description
+- uid: DatabaseConfig.ConnectionData
+  commentId: P:DatabaseConfig.ConnectionData
+  parent: DatabaseConfig
+  href: DatabaseConfig.html#DatabaseConfig_ConnectionData
+  name: ConnectionData
+  nameWithType: DatabaseConfig.ConnectionData
+  fullName: DatabaseConfig.ConnectionData
+- uid: DatabaseConfig.Tables
+  commentId: P:DatabaseConfig.Tables
+  parent: DatabaseConfig
+  href: DatabaseConfig.html#DatabaseConfig_Tables
+  name: Tables
+  nameWithType: DatabaseConfig.Tables
+  fullName: DatabaseConfig.Tables
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -443,74 +343,3 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Minds.SDK.RestAPI
-  commentId: T:Minds.SDK.RestAPI
-  parent: Minds.SDK
-  href: Minds.SDK.RestAPI.html
-  name: RestAPI
-  nameWithType: RestAPI
-  fullName: Minds.SDK.RestAPI
-- uid: Minds.SDK.Client.Api*
-  commentId: Overload:Minds.SDK.Client.Api
-  href: Minds.SDK.Client.html#Minds_SDK_Client_Api
-  name: Api
-  nameWithType: Client.Api
-  fullName: Minds.SDK.Client.Api
-- uid: Minds.SDK.Client.Datasources
-  commentId: P:Minds.SDK.Client.Datasources
-  href: Minds.SDK.Client.html#Minds_SDK_Client_Datasources
-  name: Datasources
-  nameWithType: Client.Datasources
-  fullName: Minds.SDK.Client.Datasources
-- uid: Minds.SDK.Client.Datasources*
-  commentId: Overload:Minds.SDK.Client.Datasources
-  href: Minds.SDK.Client.html#Minds_SDK_Client_Datasources
-  name: Datasources
-  nameWithType: Client.Datasources
-  fullName: Minds.SDK.Client.Datasources
-- uid: Minds.SDK.Datasources
-  commentId: T:Minds.SDK.Datasources
-  parent: Minds.SDK
-  href: Minds.SDK.Datasources.html
-  name: Datasources
-  nameWithType: Datasources
-  fullName: Minds.SDK.Datasources
-- uid: Minds.SDK.Client.Minds
-  commentId: P:Minds.SDK.Client.Minds
-  href: Minds.SDK.Client.html#Minds_SDK_Client_Minds
-  name: Minds
-  nameWithType: Client.Minds
-  fullName: Minds.SDK.Client.Minds
-- uid: Minds.SDK.Client.Minds*
-  commentId: Overload:Minds.SDK.Client.Minds
-  href: Minds.SDK.Client.html#Minds_SDK_Client_Minds
-  name: Minds
-  nameWithType: Client.Minds
-  fullName: Minds.SDK.Client.Minds
-- uid: Minds.SDK.Minds
-  commentId: T:Minds.SDK.Minds
-  parent: Minds.SDK
-  href: Minds.SDK.Minds.html
-  name: Minds
-  nameWithType: Minds
-  fullName: Minds.SDK.Minds
-- uid: Minds.SDK.Client.#ctor*
-  commentId: Overload:Minds.SDK.Client.#ctor
-  href: Minds.SDK.Client.html#Minds_SDK_Client__ctor_System_String_System_String_
-  name: Client
-  nameWithType: Client.Client
-  fullName: Minds.SDK.Client.Client
-  nameWithType.vb: Client.New
-  fullName.vb: Minds.SDK.Client.New
-  name.vb: New
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String

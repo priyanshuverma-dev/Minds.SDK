@@ -19,7 +19,7 @@ jobs:
           dotnet-version: '6.0.x'  # Specify the .NET version you are using
 
       - name: Restore dependencies
-        run: dotnet restore ./Minds.SDK/Minds.SDK.csproj
+        run: dotnet restore
 
       - name: Build project
         run: dotnet build --configuration Release

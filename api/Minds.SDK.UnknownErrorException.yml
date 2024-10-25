@@ -1,36 +1,36 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Minds.SDK.ObjectNotFoundException
-  commentId: T:Minds.SDK.ObjectNotFoundException
-  id: ObjectNotFoundException
+- uid: Minds.SDK.UnknownErrorException
+  commentId: T:Minds.SDK.UnknownErrorException
+  id: UnknownErrorException
   parent: Minds.SDK
   children:
-  - Minds.SDK.ObjectNotFoundException.#ctor
-  - Minds.SDK.ObjectNotFoundException.#ctor(System.String)
-  - Minds.SDK.ObjectNotFoundException.#ctor(System.String,System.Exception)
+  - Minds.SDK.UnknownErrorException.#ctor
+  - Minds.SDK.UnknownErrorException.#ctor(System.String)
+  - Minds.SDK.UnknownErrorException.#ctor(System.String,System.Exception)
   langs:
   - csharp
   - vb
-  name: ObjectNotFoundException
-  nameWithType: ObjectNotFoundException
-  fullName: Minds.SDK.ObjectNotFoundException
+  name: UnknownErrorException
+  nameWithType: UnknownErrorException
+  fullName: Minds.SDK.UnknownErrorException
   type: Class
   source:
     remote:
       path: Minds.SDK/Exceptions.cs
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
-    id: ObjectNotFoundException
-    path: Exceptions.cs
-    startLine: 7
+    id: UnknownErrorException
+    path: Minds.SDK/Exceptions.cs
+    startLine: 103
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Represents an exception that is thrown when a requested object is not found.
+  summary: Represents an exception that is thrown when an unknown error occurs during an API request.
   example: []
   syntax:
-    content: 'public class ObjectNotFoundException : Exception, ISerializable, _Exception'
-    content.vb: Public Class ObjectNotFoundException Inherits Exception Implements ISerializable, _Exception
+    content: 'public class UnknownErrorException : Exception, ISerializable, _Exception'
+    content.vb: Public Class UnknownErrorException Inherits Exception Implements ISerializable, _Exception
   inheritance:
   - System.Object
   - System.Exception
@@ -56,16 +56,16 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   - System.Object.MemberwiseClone
-- uid: Minds.SDK.ObjectNotFoundException.#ctor
-  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor
+- uid: Minds.SDK.UnknownErrorException.#ctor
+  commentId: M:Minds.SDK.UnknownErrorException.#ctor
   id: '#ctor'
-  parent: Minds.SDK.ObjectNotFoundException
+  parent: Minds.SDK.UnknownErrorException
   langs:
   - csharp
   - vb
-  name: ObjectNotFoundException()
-  nameWithType: ObjectNotFoundException.ObjectNotFoundException()
-  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException()
+  name: UnknownErrorException()
+  nameWithType: UnknownErrorException.UnknownErrorException()
+  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException()
   type: Constructor
   source:
     remote:
@@ -73,30 +73,30 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 12
+    path: Minds.SDK/Exceptions.cs
+    startLine: 108
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.ObjectNotFoundException" data-throw-if-not-resolved="false"></xref> class.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.UnknownErrorException" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
-    content: public ObjectNotFoundException()
+    content: public UnknownErrorException()
     content.vb: Public Sub New()
-  overload: Minds.SDK.ObjectNotFoundException.#ctor*
-  nameWithType.vb: ObjectNotFoundException.New()
-  fullName.vb: Minds.SDK.ObjectNotFoundException.New()
+  overload: Minds.SDK.UnknownErrorException.#ctor*
+  nameWithType.vb: UnknownErrorException.New()
+  fullName.vb: Minds.SDK.UnknownErrorException.New()
   name.vb: New()
-- uid: Minds.SDK.ObjectNotFoundException.#ctor(System.String)
-  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor(System.String)
+- uid: Minds.SDK.UnknownErrorException.#ctor(System.String)
+  commentId: M:Minds.SDK.UnknownErrorException.#ctor(System.String)
   id: '#ctor(System.String)'
-  parent: Minds.SDK.ObjectNotFoundException
+  parent: Minds.SDK.UnknownErrorException
   langs:
   - csharp
   - vb
-  name: ObjectNotFoundException(string)
-  nameWithType: ObjectNotFoundException.ObjectNotFoundException(string)
-  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException(string)
+  name: UnknownErrorException(string)
+  nameWithType: UnknownErrorException.UnknownErrorException(string)
+  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException(string)
   type: Constructor
   source:
     remote:
@@ -104,34 +104,34 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 18
+    path: Minds.SDK/Exceptions.cs
+    startLine: 114
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.ObjectNotFoundException" data-throw-if-not-resolved="false"></xref> class with a specified error message.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.UnknownErrorException" data-throw-if-not-resolved="false"></xref> class with a specified error message.
   example: []
   syntax:
-    content: public ObjectNotFoundException(string message)
+    content: public UnknownErrorException(string message)
     parameters:
     - id: message
       type: System.String
       description: The error message that explains the reason for the exception.
     content.vb: Public Sub New(message As String)
-  overload: Minds.SDK.ObjectNotFoundException.#ctor*
-  nameWithType.vb: ObjectNotFoundException.New(String)
-  fullName.vb: Minds.SDK.ObjectNotFoundException.New(String)
+  overload: Minds.SDK.UnknownErrorException.#ctor*
+  nameWithType.vb: UnknownErrorException.New(String)
+  fullName.vb: Minds.SDK.UnknownErrorException.New(String)
   name.vb: New(String)
-- uid: Minds.SDK.ObjectNotFoundException.#ctor(System.String,System.Exception)
-  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor(System.String,System.Exception)
+- uid: Minds.SDK.UnknownErrorException.#ctor(System.String,System.Exception)
+  commentId: M:Minds.SDK.UnknownErrorException.#ctor(System.String,System.Exception)
   id: '#ctor(System.String,System.Exception)'
-  parent: Minds.SDK.ObjectNotFoundException
+  parent: Minds.SDK.UnknownErrorException
   langs:
   - csharp
   - vb
-  name: ObjectNotFoundException(string, Exception)
-  nameWithType: ObjectNotFoundException.ObjectNotFoundException(string, Exception)
-  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException(string, System.Exception)
+  name: UnknownErrorException(string, Exception)
+  nameWithType: UnknownErrorException.UnknownErrorException(string, Exception)
+  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException(string, System.Exception)
   type: Constructor
   source:
     remote:
@@ -139,15 +139,15 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 25
+    path: Minds.SDK/Exceptions.cs
+    startLine: 121
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.ObjectNotFoundException" data-throw-if-not-resolved="false"></xref> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.UnknownErrorException" data-throw-if-not-resolved="false"></xref> class with a specified error message and a reference to the inner exception that is the cause of this exception.
   example: []
   syntax:
-    content: public ObjectNotFoundException(string message, Exception inner)
+    content: public UnknownErrorException(string message, Exception inner)
     parameters:
     - id: message
       type: System.String
@@ -156,9 +156,9 @@ items:
       type: System.Exception
       description: The exception that is the cause of the current exception.
     content.vb: Public Sub New(message As String, inner As Exception)
-  overload: Minds.SDK.ObjectNotFoundException.#ctor*
-  nameWithType.vb: ObjectNotFoundException.New(String, Exception)
-  fullName.vb: Minds.SDK.ObjectNotFoundException.New(String, System.Exception)
+  overload: Minds.SDK.UnknownErrorException.#ctor*
+  nameWithType.vb: UnknownErrorException.New(String, Exception)
+  fullName.vb: Minds.SDK.UnknownErrorException.New(String, System.Exception)
   name.vb: New(String, Exception)
 references:
 - uid: Minds.SDK
@@ -650,20 +650,20 @@ references:
     name: InteropServices
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
-- uid: Minds.SDK.ObjectNotFoundException
-  commentId: T:Minds.SDK.ObjectNotFoundException
-  href: Minds.SDK.ObjectNotFoundException.html
-  name: ObjectNotFoundException
-  nameWithType: ObjectNotFoundException
-  fullName: Minds.SDK.ObjectNotFoundException
-- uid: Minds.SDK.ObjectNotFoundException.#ctor*
-  commentId: Overload:Minds.SDK.ObjectNotFoundException.#ctor
-  href: Minds.SDK.ObjectNotFoundException.html#Minds_SDK_ObjectNotFoundException__ctor
-  name: ObjectNotFoundException
-  nameWithType: ObjectNotFoundException.ObjectNotFoundException
-  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException
-  nameWithType.vb: ObjectNotFoundException.New
-  fullName.vb: Minds.SDK.ObjectNotFoundException.New
+- uid: Minds.SDK.UnknownErrorException
+  commentId: T:Minds.SDK.UnknownErrorException
+  href: Minds.SDK.UnknownErrorException.html
+  name: UnknownErrorException
+  nameWithType: UnknownErrorException
+  fullName: Minds.SDK.UnknownErrorException
+- uid: Minds.SDK.UnknownErrorException.#ctor*
+  commentId: Overload:Minds.SDK.UnknownErrorException.#ctor
+  href: Minds.SDK.UnknownErrorException.html#Minds_SDK_UnknownErrorException__ctor
+  name: UnknownErrorException
+  nameWithType: UnknownErrorException.UnknownErrorException
+  fullName: Minds.SDK.UnknownErrorException.UnknownErrorException
+  nameWithType.vb: UnknownErrorException.New
+  fullName.vb: Minds.SDK.UnknownErrorException.New
   name.vb: New
 - uid: System.String
   commentId: T:System.String

@@ -1,36 +1,36 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Minds.SDK.ForbiddenException
-  commentId: T:Minds.SDK.ForbiddenException
-  id: ForbiddenException
+- uid: Minds.SDK.ObjectNotFoundException
+  commentId: T:Minds.SDK.ObjectNotFoundException
+  id: ObjectNotFoundException
   parent: Minds.SDK
   children:
-  - Minds.SDK.ForbiddenException.#ctor
-  - Minds.SDK.ForbiddenException.#ctor(System.String)
-  - Minds.SDK.ForbiddenException.#ctor(System.String,System.Exception)
+  - Minds.SDK.ObjectNotFoundException.#ctor
+  - Minds.SDK.ObjectNotFoundException.#ctor(System.String)
+  - Minds.SDK.ObjectNotFoundException.#ctor(System.String,System.Exception)
   langs:
   - csharp
   - vb
-  name: ForbiddenException
-  nameWithType: ForbiddenException
-  fullName: Minds.SDK.ForbiddenException
+  name: ObjectNotFoundException
+  nameWithType: ObjectNotFoundException
+  fullName: Minds.SDK.ObjectNotFoundException
   type: Class
   source:
     remote:
       path: Minds.SDK/Exceptions.cs
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
-    id: ForbiddenException
-    path: Exceptions.cs
-    startLine: 55
+    id: ObjectNotFoundException
+    path: Minds.SDK/Exceptions.cs
+    startLine: 7
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Represents an exception that is thrown when a request is forbidden due to lack of access permissions.
+  summary: Represents an exception that is thrown when a requested object is not found.
   example: []
   syntax:
-    content: 'public class ForbiddenException : Exception, ISerializable, _Exception'
-    content.vb: Public Class ForbiddenException Inherits Exception Implements ISerializable, _Exception
+    content: 'public class ObjectNotFoundException : Exception, ISerializable, _Exception'
+    content.vb: Public Class ObjectNotFoundException Inherits Exception Implements ISerializable, _Exception
   inheritance:
   - System.Object
   - System.Exception
@@ -56,16 +56,16 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   - System.Object.MemberwiseClone
-- uid: Minds.SDK.ForbiddenException.#ctor
-  commentId: M:Minds.SDK.ForbiddenException.#ctor
+- uid: Minds.SDK.ObjectNotFoundException.#ctor
+  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor
   id: '#ctor'
-  parent: Minds.SDK.ForbiddenException
+  parent: Minds.SDK.ObjectNotFoundException
   langs:
   - csharp
   - vb
-  name: ForbiddenException()
-  nameWithType: ForbiddenException.ForbiddenException()
-  fullName: Minds.SDK.ForbiddenException.ForbiddenException()
+  name: ObjectNotFoundException()
+  nameWithType: ObjectNotFoundException.ObjectNotFoundException()
+  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException()
   type: Constructor
   source:
     remote:
@@ -73,30 +73,30 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 60
+    path: Minds.SDK/Exceptions.cs
+    startLine: 12
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.ForbiddenException" data-throw-if-not-resolved="false"></xref> class.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.ObjectNotFoundException" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
-    content: public ForbiddenException()
+    content: public ObjectNotFoundException()
     content.vb: Public Sub New()
-  overload: Minds.SDK.ForbiddenException.#ctor*
-  nameWithType.vb: ForbiddenException.New()
-  fullName.vb: Minds.SDK.ForbiddenException.New()
+  overload: Minds.SDK.ObjectNotFoundException.#ctor*
+  nameWithType.vb: ObjectNotFoundException.New()
+  fullName.vb: Minds.SDK.ObjectNotFoundException.New()
   name.vb: New()
-- uid: Minds.SDK.ForbiddenException.#ctor(System.String)
-  commentId: M:Minds.SDK.ForbiddenException.#ctor(System.String)
+- uid: Minds.SDK.ObjectNotFoundException.#ctor(System.String)
+  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor(System.String)
   id: '#ctor(System.String)'
-  parent: Minds.SDK.ForbiddenException
+  parent: Minds.SDK.ObjectNotFoundException
   langs:
   - csharp
   - vb
-  name: ForbiddenException(string)
-  nameWithType: ForbiddenException.ForbiddenException(string)
-  fullName: Minds.SDK.ForbiddenException.ForbiddenException(string)
+  name: ObjectNotFoundException(string)
+  nameWithType: ObjectNotFoundException.ObjectNotFoundException(string)
+  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException(string)
   type: Constructor
   source:
     remote:
@@ -104,34 +104,34 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 66
+    path: Minds.SDK/Exceptions.cs
+    startLine: 18
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.ForbiddenException" data-throw-if-not-resolved="false"></xref> class with a specified error message.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.ObjectNotFoundException" data-throw-if-not-resolved="false"></xref> class with a specified error message.
   example: []
   syntax:
-    content: public ForbiddenException(string message)
+    content: public ObjectNotFoundException(string message)
     parameters:
     - id: message
       type: System.String
       description: The error message that explains the reason for the exception.
     content.vb: Public Sub New(message As String)
-  overload: Minds.SDK.ForbiddenException.#ctor*
-  nameWithType.vb: ForbiddenException.New(String)
-  fullName.vb: Minds.SDK.ForbiddenException.New(String)
+  overload: Minds.SDK.ObjectNotFoundException.#ctor*
+  nameWithType.vb: ObjectNotFoundException.New(String)
+  fullName.vb: Minds.SDK.ObjectNotFoundException.New(String)
   name.vb: New(String)
-- uid: Minds.SDK.ForbiddenException.#ctor(System.String,System.Exception)
-  commentId: M:Minds.SDK.ForbiddenException.#ctor(System.String,System.Exception)
+- uid: Minds.SDK.ObjectNotFoundException.#ctor(System.String,System.Exception)
+  commentId: M:Minds.SDK.ObjectNotFoundException.#ctor(System.String,System.Exception)
   id: '#ctor(System.String,System.Exception)'
-  parent: Minds.SDK.ForbiddenException
+  parent: Minds.SDK.ObjectNotFoundException
   langs:
   - csharp
   - vb
-  name: ForbiddenException(string, Exception)
-  nameWithType: ForbiddenException.ForbiddenException(string, Exception)
-  fullName: Minds.SDK.ForbiddenException.ForbiddenException(string, System.Exception)
+  name: ObjectNotFoundException(string, Exception)
+  nameWithType: ObjectNotFoundException.ObjectNotFoundException(string, Exception)
+  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException(string, System.Exception)
   type: Constructor
   source:
     remote:
@@ -139,15 +139,15 @@ items:
       branch: master
       repo: https://github.com/priyanshuverma-dev/Minds.SDK.git
     id: .ctor
-    path: Exceptions.cs
-    startLine: 73
+    path: Minds.SDK/Exceptions.cs
+    startLine: 25
   assemblies:
   - Minds.SDK
   namespace: Minds.SDK
-  summary: Initializes a new instance of the <xref href="Minds.SDK.ForbiddenException" data-throw-if-not-resolved="false"></xref> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+  summary: Initializes a new instance of the <xref href="Minds.SDK.ObjectNotFoundException" data-throw-if-not-resolved="false"></xref> class with a specified error message and a reference to the inner exception that is the cause of this exception.
   example: []
   syntax:
-    content: public ForbiddenException(string message, Exception inner)
+    content: public ObjectNotFoundException(string message, Exception inner)
     parameters:
     - id: message
       type: System.String
@@ -156,9 +156,9 @@ items:
       type: System.Exception
       description: The exception that is the cause of the current exception.
     content.vb: Public Sub New(message As String, inner As Exception)
-  overload: Minds.SDK.ForbiddenException.#ctor*
-  nameWithType.vb: ForbiddenException.New(String, Exception)
-  fullName.vb: Minds.SDK.ForbiddenException.New(String, System.Exception)
+  overload: Minds.SDK.ObjectNotFoundException.#ctor*
+  nameWithType.vb: ObjectNotFoundException.New(String, Exception)
+  fullName.vb: Minds.SDK.ObjectNotFoundException.New(String, System.Exception)
   name.vb: New(String, Exception)
 references:
 - uid: Minds.SDK
@@ -650,20 +650,20 @@ references:
     name: InteropServices
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
-- uid: Minds.SDK.ForbiddenException
-  commentId: T:Minds.SDK.ForbiddenException
-  href: Minds.SDK.ForbiddenException.html
-  name: ForbiddenException
-  nameWithType: ForbiddenException
-  fullName: Minds.SDK.ForbiddenException
-- uid: Minds.SDK.ForbiddenException.#ctor*
-  commentId: Overload:Minds.SDK.ForbiddenException.#ctor
-  href: Minds.SDK.ForbiddenException.html#Minds_SDK_ForbiddenException__ctor
-  name: ForbiddenException
-  nameWithType: ForbiddenException.ForbiddenException
-  fullName: Minds.SDK.ForbiddenException.ForbiddenException
-  nameWithType.vb: ForbiddenException.New
-  fullName.vb: Minds.SDK.ForbiddenException.New
+- uid: Minds.SDK.ObjectNotFoundException
+  commentId: T:Minds.SDK.ObjectNotFoundException
+  href: Minds.SDK.ObjectNotFoundException.html
+  name: ObjectNotFoundException
+  nameWithType: ObjectNotFoundException
+  fullName: Minds.SDK.ObjectNotFoundException
+- uid: Minds.SDK.ObjectNotFoundException.#ctor*
+  commentId: Overload:Minds.SDK.ObjectNotFoundException.#ctor
+  href: Minds.SDK.ObjectNotFoundException.html#Minds_SDK_ObjectNotFoundException__ctor
+  name: ObjectNotFoundException
+  nameWithType: ObjectNotFoundException.ObjectNotFoundException
+  fullName: Minds.SDK.ObjectNotFoundException.ObjectNotFoundException
+  nameWithType.vb: ObjectNotFoundException.New
+  fullName.vb: Minds.SDK.ObjectNotFoundException.New
   name.vb: New
 - uid: System.String
   commentId: T:System.String
