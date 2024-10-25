@@ -16,7 +16,7 @@
 _site/
 # Mono auto generated files
 mono_crash.*
-
+/output
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

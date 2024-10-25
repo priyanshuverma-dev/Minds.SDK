@@ -14,9 +14,6 @@
     <a href="https://github.com/priyanshuverma-dev/Minds.SDK/releases">
 <img alt="repo release" src="https://img.shields.io/github/v/release/priyanshuverma-dev/Minds.SDK">   
     </a> 
-    <a href="https://github.com/priyanshuverma-dev/Minds.SDK/blob/master/LICENSE">
-<img alt="license" src="https://img.shields.io/badge/License-MIT-blue.svg"> 
-    </a> 
 </p>
 
 > [!NOTE]
