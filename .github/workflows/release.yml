@@ -25,10 +25,8 @@ jobs:
         run: dotnet build Minds.SDK/Minds.SDK.csproj --configuration Release
 
       - name: Publish project
-        run: dotnet publish Minds.SDK/Minds.SDK.csproj -c Release -o output
+        run: dotnet pack Minds.SDK/Minds.SDK.csproj -c Release -o output
 
-      - name: Create ZIP of output
-        run: zip -r Minds-${{github.ref_name}}.zip output/*  # Create a ZIP file of the output directory
 
       - name: Create Release
         id: create_release
@@ -38,9 +36,7 @@ jobs:
           name: Minds.SDK ${{ github.ref_name }}
           draft: false
           prerelease: false
-          files: |
-            output/*
-            Minds-${{github.ref_name}}.zip
+          files: output/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

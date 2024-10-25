@@ -17,7 +17,7 @@
     <tags>MindsDB SDK</tags>
   </metadata>
   <files>
-    <file src="README.md" target="." />
-    <file src="LICENSE.txt" target="." />
+    <file src="README.md" target="" />
+    <file src="LICENSE.txt" target="" />
   </files>
 </package>
