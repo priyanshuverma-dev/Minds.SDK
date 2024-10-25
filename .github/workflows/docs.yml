@@ -40,7 +40,8 @@ jobs:
 
       # Build the documentation using DocFX
       - name: Generate Documentation
-        run: docfx ./Minds.SDK/docfx.json  # Adjust this command based on your docfx.json location
+        run: docfx ./Minds.SDK/docfx.json --verbose
+        timeout-minutes: 10  # Adjust as necessary
 
       # Deploy the documentation to GitHub Pages
       - name: Deploy to GitHub Pages
