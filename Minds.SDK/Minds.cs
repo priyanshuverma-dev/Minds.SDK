@@ -13,7 +13,7 @@ namespace Minds.SDK
     {
         private readonly Client _client;
         private readonly string _project = "mindsdb";
-
+        internal Client Client => _client;
         /// <summary>
         /// Initializes a new instance of the <see cref="Minds"/> class with the provided client.
         /// </summary>

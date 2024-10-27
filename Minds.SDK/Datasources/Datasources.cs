@@ -10,6 +10,8 @@ namespace Minds.SDK
     {
         private readonly Client _client;
 
+        internal Client Client => _client;
+
         /// <summary>
         /// Initializes a new instance of the <see cref="Datasources"/> class.
         /// </summary>

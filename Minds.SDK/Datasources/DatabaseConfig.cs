@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Text.Json;
 
 /// <summary>
 /// Represents the configuration settings for a database, including its name, engine type, and connection details.
@@ -31,4 +33,12 @@ public class DatabaseConfig
     /// This list contains the names of tables that exist in the configured database.
     /// </summary>
     public List<string> Tables { get; set; } = new List<string>();
+
+    /// <summary>
+    /// Converts the current instance of DatabaseConfig to a JSON string.
+    /// </summary>
+    /// <returns>A JSON string representing the current instance.</returns>
+    public string ToJson() {
+        return JsonSerializer.Serialize(this);
+    }
 }

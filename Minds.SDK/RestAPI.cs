@@ -15,6 +15,19 @@ namespace Minds.SDK
         private readonly string _baseUrl;
         private readonly HttpClient _httpClient;
 
+
+        /// <summary>
+        /// Gets the API key used for authenticating requests.
+        /// </summary>
+        internal string ApiKey => _apiKey;
+
+        /// <summary>
+        /// Gets the base URL of the API.
+        /// </summary>
+        internal string BaseUrl => _baseUrl;
+
+
+
         /// <summary>
         /// Initializes a new instance of the <see cref="RestAPI"/> class.
         /// Sets up the API base URL and initializes the HttpClient with the provided API key for authorization.

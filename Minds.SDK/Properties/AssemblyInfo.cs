@@ -11,3 +11,4 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("c6a357ec-6e0e-487c-8399-95f243d98a55")]
+[assembly: InternalsVisibleTo("Minds.SDK.Tests")]
